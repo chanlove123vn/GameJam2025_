@@ -23,7 +23,6 @@ public abstract class MonsterAbstract : HuyMonoBehaviour
     [Header("===Shotting===")]
     [SerializeField] protected Bullet bulletPrefab;
     [SerializeField] protected Transform firePoint;
-    [SerializeField] protected Vector2 bulletDirection;
     [SerializeField] protected float timer = 0;
 
     [Header("===HP===")]

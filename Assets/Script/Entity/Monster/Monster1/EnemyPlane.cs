@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class EnemyPlane : MonsterAbstract
 {
+    [SerializeField] private Vector2 bulletDirection = Vector2.down;
     protected override void Moving()
     {
         currentState = MonsterState.MOVING;

@@ -2,66 +2,59 @@ using UnityEngine;
 
 public class Bullet : ObjectPooled
 {
-    //--Variables--//
+    //===Variables===//
     [SerializeField] private float speed = 10f;
-    [SerializeField] private float bulletLife = 5f;
     [SerializeField] private float damage = 1f;
+    private float timer = 0;
 
-    // cache Rigidbody2D if present
     private Rigidbody2D rb;
+
+    //===Unity====//
+    private void Update()
+    {
+        this.DespawningByTime();
+    }
+    protected override void LoadComponent()
+    {
+        base.LoadComponent();
+        if(!rb) this.rb = GetComponent<Rigidbody2D>();
+    }
+    //===Method===//
+    private void Moving()
+    {
+        float xDir = Mathf.Cos(transform.rotation.eulerAngles.z * Mathf.Deg2Rad);
+        float yDir = Mathf.Sin(transform.rotation.eulerAngles.z * Mathf.Deg2Rad);
+
+        Vector2 moveDir = new Vector2(xDir, yDir).normalized;
+        this.rb.linearVelocity = moveDir * this.speed;
+    }
 
     public override void OnSpawn()
     {
-        if (rb == null) rb = GetComponent<Rigidbody2D>();
-
-        // Mỗi lần spawn lại thì reset vận tốc
-        if (rb) rb.linearVelocity = Vector2.zero;
-
-        // Bắt đầu đếm thời gian sống của đạn
-        CancelInvoke(nameof(Despawn));
-        Invoke(nameof(Despawn), bulletLife);
+        this.Moving();
     }
 
-    public override void OnDespawn()
+    private void DespawningByTime()
     {
-        if (rb == null) rb = GetComponent<Rigidbody2D>();
-        if (rb) rb.linearVelocity = Vector2.zero;
-
-        CancelInvoke(nameof(Despawn));
-    }
-
-    // Hàm trả đạn về pool sau khi hết bulletLife
-    private void Despawn()
-    {
-        var pool = PoolingManager.Instance.GetPoolCtrl(this);
-        if (pool != null)
+        timer += Time.deltaTime;
+        if (timer >= 2)
         {
-            pool.ReturnToPool(this);
-        }
-        else
-        {
-            gameObject.SetActive(false);
+            timer = 0;
+            PoolingManager.Instance.GetPoolCtrl(this).ReturnToPool(this);
         }
     }
 
-    /// /// Khởi tạo hướng bay, speed & bulletLife dùng giá trị nội bộ của Bullet
     public void Init(Vector2 direction)
     {
-        if (rb == null) rb = GetComponent<Rigidbody2D>();
-
-        if (direction != Vector2.zero)
-        {
-            direction.Normalize();
-            // Cho "đầu đạn" quay theo hướng bay
-            transform.up = direction;
-        }
-
-        if (rb)
-        {
-            rb.linearVelocity = direction * speed;
-        }
+        transform.rotation = Quaternion.Euler(direction);
     }
-
-    // Nếu sau này cần lấy damage từ chỗ khác thì dùng property này
-    public float Damage => damage;
+    
+    // Note FUCK U: CHANGE TO PLAYER FUCK UUUUUUUUUU
+    private void OnTriggerEnter2D(Collider2D collision) {
+    EnemyPlane enemy = collision.GetComponent<EnemyPlane>();
+    if (enemy != null) {
+        enemy.TakeDamage(damage);
+        PoolingManager.Instance.GetPoolCtrl(this).ReturnToPool(this);
+    }
+}
 }

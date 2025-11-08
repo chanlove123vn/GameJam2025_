@@ -11,6 +11,8 @@ public enum MonsterState
 
 public abstract class MonsterAbstract : HuyMonoBehaviour
 {
+
+    //===Variables===//
     [Header("===Components===")]
     [SerializeField] protected Rigidbody2D rb;
     [SerializeField] protected CapsuleCollider2D bodyCol;
@@ -19,10 +21,6 @@ public abstract class MonsterAbstract : HuyMonoBehaviour
     [SerializeField] protected float moveSpeed;
     [SerializeField] protected MonsterState currentState = MonsterState.ALIVE;
     [SerializeField] protected Vector2 moveDir;
-
-    [Header("===Shotting===")]
-    [SerializeField] protected Bullet bulletPrefab;
-    [SerializeField] protected Transform firePoint;
     [SerializeField] protected float timer = 0;
 
     [Header("===HP===")]
@@ -35,7 +33,6 @@ public abstract class MonsterAbstract : HuyMonoBehaviour
         base.LoadComponents();
         this.LoadComponent(ref this.rb, transform, "LoadRb()");
         this.LoadComponent(ref this.bodyCol, transform, "LoadBodyCol()");
-        this.LoadComponent(ref this.firePoint, transform, "FirePoint");
     }
 
     protected virtual void Start()
@@ -43,6 +40,7 @@ public abstract class MonsterAbstract : HuyMonoBehaviour
         this.ResetHP();
     }
 
+    //===Method===//
     protected virtual void ResetHP()
     {
         HP = baseHP;

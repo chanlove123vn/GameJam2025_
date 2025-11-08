@@ -2,7 +2,21 @@ using UnityEngine;
 
 public class EnemyPlane : MonsterAbstract
 {
+
+    //===Variables===//
+    [Header("===Shotting===")]
     [SerializeField] private Vector2 bulletDirection = Vector2.down;
+    [SerializeField] protected Bullet bulletPrefab;
+    [SerializeField] protected Transform firePoint;
+
+
+    //===Unity===//
+    public override void LoadComponents()
+    {
+        this.LoadComponent(ref this.firePoint, transform, "FirePoint");
+    }
+
+    //===Method===//
     protected override void Moving()
     {
         currentState = MonsterState.MOVING;

@@ -71,30 +71,4 @@ public abstract class MonsterAbstract : HuyMonoBehaviour
 
     protected abstract void Moving();
 
-
-    protected virtual void Shooting()
-    {
-        timer += Time.deltaTime;
-        if (timer >= 1)
-        {
-            timer = 0;
-            this.Shoot();
-        }
-    }
-
-    protected virtual void Shoot()
-    {
-        if (bulletPrefab == null || firePoint == null) return;
-
-        Bullet newBullet = PoolingManager.Instance.GetPoolCtrl(bulletPrefab).
-            Spawn(bulletPrefab, firePoint.position, firePoint.rotation).GetComponent<Bullet>();
-
-        if (newBullet == null)
-        {
-            Debug.LogError("ERROR Shoot(): No Bullet", transform.gameObject);
-            return;
-        }
-
-        newBullet.Init(bulletDirection);
-    }
 }

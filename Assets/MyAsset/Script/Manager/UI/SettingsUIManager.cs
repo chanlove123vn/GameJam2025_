@@ -15,10 +15,11 @@ public class SettingsUIManager : HuySingleton<SettingsUIManager>
     public override void LoadComponents()
     {
         base.LoadComponents();
-        this.LoadComponent(ref this.ui, transform.Find("UI"), "LoadUI");
+        this.LoadComponent(ref this.ui, transform.parent, "LoadUI");
         this.LoadComponent(ref this.masterSoundSlider, transform.Find("MasterSound/Slider"), "LoadMasterSoundSlider");
         this.LoadComponent(ref this.musicSoundSlider, transform.Find("Music/Slider"), "LoadMusicSoundSlider");
         this.LoadComponent(ref this.soundSlider, transform.Find("Sound/Slider"), "LoadSoundSlider");
+        this.LoadComponent(ref this.backBtn, transform.Find("BackBtn"), "LoadBackBtn");
     }
 
     private void Update()

@@ -13,7 +13,7 @@ public class MainUIManager : HuySingleton<MainUIManager>
     public override void LoadComponents()
     {
         base.LoadComponents();
-        this.LoadComponent(ref ui, transform.Find("UI"), "LoadUI");
+        this.LoadComponent(ref ui, transform.parent, "LoadUI");
         this.LoadComponent(ref this.resumeBtn, transform.Find("ResumeBtn"), "LoadResumeBtn");
         this.LoadComponent(ref this.settingsBtn, transform.Find("SettingsBtn"), "LoadSettingsBtn");
     }

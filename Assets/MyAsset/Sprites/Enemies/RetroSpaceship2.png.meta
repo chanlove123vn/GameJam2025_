@@ -1,0 +1,1822 @@
+fileFormatVersion: 2
+guid: b90a3a9b3f4bab04c9b4f3e34b970e21
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 121449908305164638
+    second: RetroSpaceship2_0
+  - first:
+      213: 8278239214475034174
+    second: RetroSpaceship2_1
+  - first:
+      213: -554911940184945612
+    second: RetroSpaceship2_2
+  - first:
+      213: 4458921646443691515
+    second: RetroSpaceship2_3
+  - first:
+      213: 3120273095880262974
+    second: RetroSpaceship2_4
+  - first:
+      213: 1027953406555619811
+    second: RetroSpaceship2_5
+  - first:
+      213: -5102290460732060775
+    second: RetroSpaceship2_6
+  - first:
+      213: 8909041753327042284
+    second: RetroSpaceship2_7
+  - first:
+      213: -2856801563474222544
+    second: RetroSpaceship2_8
+  - first:
+      213: 2377801502018369704
+    second: RetroSpaceship2_9
+  - first:
+      213: -6924981279903233300
+    second: RetroSpaceship2_10
+  - first:
+      213: 3113197462054249335
+    second: RetroSpaceship2_11
+  - first:
+      213: 7260649378929850166
+    second: RetroSpaceship2_12
+  - first:
+      213: 5616115756147517163
+    second: RetroSpaceship2_13
+  - first:
+      213: -9144204567499659579
+    second: RetroSpaceship2_14
+  - first:
+      213: 4030420588810098349
+    second: RetroSpaceship2_15
+  - first:
+      213: -3895841592000101940
+    second: RetroSpaceship2_16
+  - first:
+      213: 9004038935928739283
+    second: RetroSpaceship2_17
+  - first:
+      213: 7574331633751982488
+    second: RetroSpaceship2_18
+  - first:
+      213: -4486307286860906899
+    second: RetroSpaceship2_19
+  - first:
+      213: 8405110875655211855
+    second: RetroSpaceship2_20
+  - first:
+      213: 4186701296762905315
+    second: RetroSpaceship2_21
+  - first:
+      213: 7616207884564222911
+    second: RetroSpaceship2_22
+  - first:
+      213: 299987052523103437
+    second: RetroSpaceship2_23
+  - first:
+      213: 7101257299118677950
+    second: RetroSpaceship2_24
+  - first:
+      213: 5213482101212666750
+    second: RetroSpaceship2_25
+  - first:
+      213: -397852931150296598
+    second: RetroSpaceship2_26
+  - first:
+      213: 1621467420437892184
+    second: RetroSpaceship2_27
+  - first:
+      213: 5071811403720921083
+    second: RetroSpaceship2_28
+  - first:
+      213: 419673446667166746
+    second: RetroSpaceship2_29
+  - first:
+      213: -7121874122069903467
+    second: RetroSpaceship2_30
+  - first:
+      213: -547510136417970651
+    second: RetroSpaceship2_31
+  - first:
+      213: 5083440619387365163
+    second: RetroSpaceship2_32
+  - first:
+      213: -2308824576141717443
+    second: RetroSpaceship2_33
+  - first:
+      213: 2372948834895656272
+    second: RetroSpaceship2_34
+  - first:
+      213: 7514945179308119442
+    second: RetroSpaceship2_35
+  - first:
+      213: 3142230514078482426
+    second: RetroSpaceship2_36
+  - first:
+      213: -5504934622129507107
+    second: RetroSpaceship2_37
+  - first:
+      213: -3493900623751529812
+    second: RetroSpaceship2_38
+  - first:
+      213: -3809853289137611025
+    second: RetroSpaceship2_39
+  - first:
+      213: 8802254902578157673
+    second: RetroSpaceship2_40
+  - first:
+      213: 8959332935317421750
+    second: RetroSpaceship2_41
+  - first:
+      213: 946946054150064752
+    second: RetroSpaceship2_42
+  - first:
+      213: -8304165207749840143
+    second: RetroSpaceship2_43
+  - first:
+      213: 3480286408209536077
+    second: RetroSpaceship2_44
+  - first:
+      213: -564900883213989218
+    second: RetroSpaceship2_45
+  - first:
+      213: -6873686214895903820
+    second: RetroSpaceship2_46
+  - first:
+      213: -1227535866950372567
+    second: RetroSpaceship2_47
+  - first:
+      213: 4804463261557593624
+    second: RetroSpaceship2_48
+  - first:
+      213: 9166652863226740923
+    second: RetroSpaceship2_49
+  - first:
+      213: 7662042013767297955
+    second: RetroSpaceship2_50
+  - first:
+      213: -7005087388727776847
+    second: RetroSpaceship2_51
+  - first:
+      213: 3552695938361477803
+    second: RetroSpaceship2_52
+  - first:
+      213: -5980602379896625102
+    second: RetroSpaceship2_53
+  - first:
+      213: -2468116916269668418
+    second: RetroSpaceship2_54
+  - first:
+      213: -1807361272262155172
+    second: RetroSpaceship2_55
+  - first:
+      213: 6202622064654995001
+    second: RetroSpaceship2_56
+  - first:
+      213: -5406986480705865979
+    second: RetroSpaceship2_57
+  - first:
+      213: 7619158514227857112
+    second: RetroSpaceship2_58
+  - first:
+      213: 1207747184052657630
+    second: RetroSpaceship2_59
+  - first:
+      213: 1020453585373447618
+    second: RetroSpaceship2_60
+  - first:
+      213: 6333022352005397468
+    second: RetroSpaceship2_61
+  - first:
+      213: 7097398768975566313
+    second: RetroSpaceship2_62
+  - first:
+      213: -8485987695603648192
+    second: RetroSpaceship2_63
+  - first:
+      213: 5769132490877259791
+    second: RetroSpaceship2_64
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: RetroSpaceship2_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 394
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5978825c0a7fa100800000000000000
+      internalID: 121449908305164638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_1
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 394
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e3e70a4b632e270800000000000000
+      internalID: 8278239214475034174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 393
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c47abc78e8c48f0800000000000000
+      internalID: -554911940184945612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 392
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfd7391fc9541ed30800000000000000
+      internalID: 4458921646443691515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_4
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 403
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35c62a49df6d4b20800000000000000
+      internalID: 3120273095880262974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_5
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 403
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1866b4d26044e00800000000000000
+      internalID: 1027953406555619811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_6
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 403
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99b833bebd50139b0800000000000000
+      internalID: -5102290460732060775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_7
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 403
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee7e24c54643ab70800000000000000
+      internalID: 8909041753327042284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 346
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 032a65f2d1a9a58d0800000000000000
+      internalID: -2856801563474222544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_9
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 346
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a8f1323ed5aff020800000000000000
+      internalID: 2377801502018369704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_10
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 345
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea432f473685ef90800000000000000
+      internalID: -6924981279903233300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_11
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 344
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7732469e89c443b20800000000000000
+      internalID: 3113197462054249335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_12
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 355
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63736cd342203c460800000000000000
+      internalID: 7260649378929850166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_13
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 355
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be6a5a6568370fd40800000000000000
+      internalID: 5616115756147517163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_14
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 348
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6ada8d462491180800000000000000
+      internalID: -9144204567499659579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_15
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 352
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da65273eb2eeee730800000000000000
+      internalID: 4030420588810098349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_16
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 349
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc144af86b03fe9c0800000000000000
+      internalID: -3895841592000101940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_17
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 355
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d591dfe4b5c4fc70800000000000000
+      internalID: 9004038935928739283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_18
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 349
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8918ac88d7e6d1960800000000000000
+      internalID: 7574331633751982488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_19
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 345
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6eb865ca4f6db1c0800000000000000
+      internalID: -4486307286860906899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 303
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b83392fc3f4a470800000000000000
+      internalID: 8405110875655211855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_21
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 303
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e26836b5a62a1a30800000000000000
+      internalID: 4186701296762905315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_22
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 251
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3daf6f7b432b960800000000000000
+      internalID: 7616207884564222911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_23
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 251
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc42bd682a4c92400800000000000000
+      internalID: 299987052523103437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_24
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 250
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf5e94b3ebbc8260800000000000000
+      internalID: 7101257299118677950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_25
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 249
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b53ad49520a5840800000000000000
+      internalID: 5213482101212666750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_26
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 260
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae940f5fdda8a7af0800000000000000
+      internalID: -397852931150296598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_27
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 260
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85cc11a270c908610800000000000000
+      internalID: 1621467420437892184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_28
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 260
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bff8f8e9991b26640800000000000000
+      internalID: 5071811403720921083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_29
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 260
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14a246b6caf2d500800000000000000
+      internalID: 419673446667166746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_30
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 203
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597f9f228350a2d90800000000000000
+      internalID: -7121874122069903467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_31
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 203
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52691e78e6ad668f0800000000000000
+      internalID: -547510136417970651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_32
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 202
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2720636f420c8640800000000000000
+      internalID: 5083440619387365163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_33
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 201
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d30916ad74865ffd0800000000000000
+      internalID: -2308824576141717443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_34
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 212
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 055f12694686ee020800000000000000
+      internalID: 2372948834895656272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_35
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 212
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 295d13f13d27a4860800000000000000
+      internalID: 7514945179308119442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_36
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 205
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aff7a0a11027b9b20800000000000000
+      internalID: 3142230514078482426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_37
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 209
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd4b838a02b8a93b0800000000000000
+      internalID: -5504934622129507107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_38
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 206
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa36c8e4eb238fc0800000000000000
+      internalID: -3493900623751529812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_39
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 212
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee59967e9ea02bc0800000000000000
+      internalID: -3809853289137611025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_40
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 206
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9689c929234e72a70800000000000000
+      internalID: 8802254902578157673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_41
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 202
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be7d0a06d1f55c70800000000000000
+      internalID: 8959332935317421750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_42
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 160
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07a821b4b6a342d00800000000000000
+      internalID: 946946054150064752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_43
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 160
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f2b9ebadbda1cc80800000000000000
+      internalID: -8304165207749840143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_44
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 112
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4413f58c067c4030800000000000000
+      internalID: 3480286408209536077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_45
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 112
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9ac9b2c3a11928f0800000000000000
+      internalID: -564900883213989218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_46
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 111
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bb51af4ec2cb90a0800000000000000
+      internalID: -6873686214895903820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_47
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 110
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9233f5df1aae6fee0800000000000000
+      internalID: -1227535866950372567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_48
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 121
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8161e8991e1eca240800000000000000
+      internalID: 4804463261557593624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_49
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 121
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb082fb463e763f70800000000000000
+      internalID: 9166652863226740923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_50
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 121
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3abe7b4cd9a055a60800000000000000
+      internalID: 7662042013767297955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_51
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 121
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9ef4e622ee8ce90800000000000000
+      internalID: -7005087388727776847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_52
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 64
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baa42090226bd4130800000000000000
+      internalID: 3552695938361477803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_53
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 64
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 238e76372d1a00da0800000000000000
+      internalID: -5980602379896625102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_54
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 63
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb72d95cdbc7fbdd0800000000000000
+      internalID: -2468116916269668418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_55
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 62
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54240aaf76fae6e0800000000000000
+      internalID: -1807361272262155172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_56
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 73
+        width: 24
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ec2c7a7e3241650800000000000000
+      internalID: 6202622064654995001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_57
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 73
+        width: 26
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 507ff28717686f4b0800000000000000
+      internalID: -5406986480705865979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_58
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 66
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6c1f7fc40bcb960800000000000000
+      internalID: 7619158514227857112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_59
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 70
+        width: 24
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edddfeb3aa7c2c010800000000000000
+      internalID: 1207747184052657630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_60
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 67
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c545f91121692e00800000000000000
+      internalID: 1020453585373447618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_61
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 73
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdbf3ed764a63e750800000000000000
+      internalID: 6333022352005397468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_62
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 67
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e55516a3960f7260800000000000000
+      internalID: 7097398768975566313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_63
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 63
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 049753bc627bb3a80800000000000000
+      internalID: -8485987695603648192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: RetroSpaceship2_64
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 21
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0057ec2f63101050800000000000000
+      internalID: 5769132490877259791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4afa00af859bbae4bbee728d96df39ed
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      RetroSpaceship2_0: 121449908305164638
+      RetroSpaceship2_1: 8278239214475034174
+      RetroSpaceship2_10: -6924981279903233300
+      RetroSpaceship2_11: 3113197462054249335
+      RetroSpaceship2_12: 7260649378929850166
+      RetroSpaceship2_13: 5616115756147517163
+      RetroSpaceship2_14: -9144204567499659579
+      RetroSpaceship2_15: 4030420588810098349
+      RetroSpaceship2_16: -3895841592000101940
+      RetroSpaceship2_17: 9004038935928739283
+      RetroSpaceship2_18: 7574331633751982488
+      RetroSpaceship2_19: -4486307286860906899
+      RetroSpaceship2_2: -554911940184945612
+      RetroSpaceship2_20: 8405110875655211855
+      RetroSpaceship2_21: 4186701296762905315
+      RetroSpaceship2_22: 7616207884564222911
+      RetroSpaceship2_23: 299987052523103437
+      RetroSpaceship2_24: 7101257299118677950
+      RetroSpaceship2_25: 5213482101212666750
+      RetroSpaceship2_26: -397852931150296598
+      RetroSpaceship2_27: 1621467420437892184
+      RetroSpaceship2_28: 5071811403720921083
+      RetroSpaceship2_29: 419673446667166746
+      RetroSpaceship2_3: 4458921646443691515
+      RetroSpaceship2_30: -7121874122069903467
+      RetroSpaceship2_31: -547510136417970651
+      RetroSpaceship2_32: 5083440619387365163
+      RetroSpaceship2_33: -2308824576141717443
+      RetroSpaceship2_34: 2372948834895656272
+      RetroSpaceship2_35: 7514945179308119442
+      RetroSpaceship2_36: 3142230514078482426
+      RetroSpaceship2_37: -5504934622129507107
+      RetroSpaceship2_38: -3493900623751529812
+      RetroSpaceship2_39: -3809853289137611025
+      RetroSpaceship2_4: 3120273095880262974
+      RetroSpaceship2_40: 8802254902578157673
+      RetroSpaceship2_41: 8959332935317421750
+      RetroSpaceship2_42: 946946054150064752
+      RetroSpaceship2_43: -8304165207749840143
+      RetroSpaceship2_44: 3480286408209536077
+      RetroSpaceship2_45: -564900883213989218
+      RetroSpaceship2_46: -6873686214895903820
+      RetroSpaceship2_47: -1227535866950372567
+      RetroSpaceship2_48: 4804463261557593624
+      RetroSpaceship2_49: 9166652863226740923
+      RetroSpaceship2_5: 1027953406555619811
+      RetroSpaceship2_50: 7662042013767297955
+      RetroSpaceship2_51: -7005087388727776847
+      RetroSpaceship2_52: 3552695938361477803
+      RetroSpaceship2_53: -5980602379896625102
+      RetroSpaceship2_54: -2468116916269668418
+      RetroSpaceship2_55: -1807361272262155172
+      RetroSpaceship2_56: 6202622064654995001
+      RetroSpaceship2_57: -5406986480705865979
+      RetroSpaceship2_58: 7619158514227857112
+      RetroSpaceship2_59: 1207747184052657630
+      RetroSpaceship2_6: -5102290460732060775
+      RetroSpaceship2_60: 1020453585373447618
+      RetroSpaceship2_61: 6333022352005397468
+      RetroSpaceship2_62: 7097398768975566313
+      RetroSpaceship2_63: -8485987695603648192
+      RetroSpaceship2_64: 5769132490877259791
+      RetroSpaceship2_7: 8909041753327042284
+      RetroSpaceship2_8: -2856801563474222544
+      RetroSpaceship2_9: 2377801502018369704
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

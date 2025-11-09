@@ -9,7 +9,8 @@ public class UIManager : HuySingleton<UIManager>
     public override void LoadComponents()
     {
         base.LoadComponents();
-        this.LoadComponent(ref this.settings, transform.Find("Settings"), "LoadSettings");
+        this.LoadComponent(ref this.settings, transform.Find("SettingsMenu"), "LoadSettings");
+        this.LoadComponent(ref this.main, transform.Find("MainMenu"), "LoadMain");
     }
 
     public void DisplaySettings()

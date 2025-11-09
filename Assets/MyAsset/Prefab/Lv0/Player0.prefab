@@ -20,7 +20,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3683652394223759772
 Transform:
   m_ObjectHideFlags: 0
@@ -141,6 +141,9 @@ MonoBehaviour:
   col: {fileID: 0}
   anim: {fileID: 0}
   sprite: {fileID: 0}
+  state: 0
+  projectileBuffDuration: 10
+  spreadAngle: 30
   flapUpForce: 15
   flapUpVelocity: 12
   maxFallSpeed: -15

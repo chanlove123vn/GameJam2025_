@@ -31,7 +31,7 @@ public class PlayerLevel2 : PlayerAbstract
     [SerializeField] private float maxFallSpeed = 18f;
 
     [SerializeField] private float apexBonusSpeed = 2f;
-    [SerializeField] private Collider2D groundBox;
+    [SerializeField] public Collider2D groundBox;
     private ContactFilter2D _groundFilter;
     private float apexPoint;
     private float apexBonus;

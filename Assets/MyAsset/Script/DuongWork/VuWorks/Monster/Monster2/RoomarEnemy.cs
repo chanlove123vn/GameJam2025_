@@ -59,4 +59,14 @@ public class RoomarEnemy : MonsterAbstract
         anim.SetBool(turnLeftanim, movingLeft);
 
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.transform.parent.TryGetComponent<PlayerLevel2>(out var player))
+        {
+            if (collision == player.groundBox)
+            {
+                Die();
+            }
+        }
+    }
 }

@@ -1,0 +1,1222 @@
+fileFormatVersion: 2
+guid: 388ddf7312330ac469f47b6f5714957a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8822859207932843454
+    second: MegaBirdSpritesheet_0
+  - first:
+      213: 4030704793283507129
+    second: MegaBirdSpritesheet_1
+  - first:
+      213: -3126098753307516930
+    second: MegaBirdSpritesheet_2
+  - first:
+      213: 3204246339943156301
+    second: MegaBirdSpritesheet_3
+  - first:
+      213: 3865451504544332572
+    second: MegaBirdSpritesheet_4
+  - first:
+      213: 1203570709137094008
+    second: MegaBirdSpritesheet_5
+  - first:
+      213: -2132421205284883671
+    second: MegaBirdSpritesheet_6
+  - first:
+      213: -7184925739311433624
+    second: MegaBirdSpritesheet_7
+  - first:
+      213: -1712008798101698959
+    second: MegaBirdSpritesheet_8
+  - first:
+      213: 678438036418845519
+    second: MegaBirdSpritesheet_9
+  - first:
+      213: -3331464852771862829
+    second: MegaBirdSpritesheet_10
+  - first:
+      213: 550389415728038724
+    second: MegaBirdSpritesheet_11
+  - first:
+      213: -4951430927684665218
+    second: MegaBirdSpritesheet_12
+  - first:
+      213: 4699612032592649672
+    second: MegaBirdSpritesheet_13
+  - first:
+      213: -6000354140261091656
+    second: MegaBirdSpritesheet_14
+  - first:
+      213: -1129903491945693193
+    second: MegaBirdSpritesheet_15
+  - first:
+      213: -7663297912959083302
+    second: MegaBirdSpritesheet_16
+  - first:
+      213: 5701911767965266949
+    second: MegaBirdSpritesheet_17
+  - first:
+      213: 2934488908393429440
+    second: MegaBirdSpritesheet_18
+  - first:
+      213: 7814891875140577830
+    second: MegaBirdSpritesheet_19
+  - first:
+      213: 3819565810342264401
+    second: MegaBirdSpritesheet_20
+  - first:
+      213: -1668533670432338056
+    second: MegaBirdSpritesheet_21
+  - first:
+      213: -6375752145882272048
+    second: MegaBirdSpritesheet_22
+  - first:
+      213: 6216400234062003653
+    second: MegaBirdSpritesheet_23
+  - first:
+      213: 2675078653579887334
+    second: MegaBirdSpritesheet_24
+  - first:
+      213: -6965906438656236728
+    second: MegaBirdSpritesheet_25
+  - first:
+      213: 6145494256650070445
+    second: MegaBirdSpritesheet_26
+  - first:
+      213: 4289498458058400466
+    second: MegaBirdSpritesheet_27
+  - first:
+      213: 4001591873769272517
+    second: MegaBirdSpritesheet_28
+  - first:
+      213: -6875882036831920717
+    second: MegaBirdSpritesheet_29
+  - first:
+      213: 4336238462610526312
+    second: MegaBirdSpritesheet_30
+  - first:
+      213: -6386224263084808551
+    second: MegaBirdSpritesheet_31
+  - first:
+      213: 2436109751424078834
+    second: MegaBirdSpritesheet_32
+  - first:
+      213: -8021963270905953652
+    second: MegaBirdSpritesheet_33
+  - first:
+      213: -1060826717707547241
+    second: MegaBirdSpritesheet_34
+  - first:
+      213: -4196290576640169990
+    second: MegaBirdSpritesheet_35
+  - first:
+      213: -3314156081782933591
+    second: MegaBirdSpritesheet_36
+  - first:
+      213: 7671332518688046941
+    second: MegaBirdSpritesheet_37
+  - first:
+      213: 5808959608446192088
+    second: MegaBirdSpritesheet_38
+  - first:
+      213: 30827948779841285
+    second: MegaBirdSpritesheet_39
+  - first:
+      213: -3883868452967609408
+    second: MegaBirdSpritesheet_40
+  - first:
+      213: -2756355653767663689
+    second: MegaBirdSpritesheet_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1655
+        width: 245
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb51f1044b7117a70800000000000000
+      internalID: 8822859207932843454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 1655
+        width: 256
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3b02667a0ffe730800000000000000
+      internalID: 4030704793283507129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 1654
+        width: 233
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff50542fbddd94d0800000000000000
+      internalID: -3126098753307516930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 1654
+        width: 233
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4a4821c115c77c20800000000000000
+      internalID: 3204246339943156301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 1655
+        width: 233
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b3dd0d9a7d4a530800000000000000
+      internalID: 3865451504544332572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 1655
+        width: 290
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8757e24ee21f3b010800000000000000
+      internalID: 1203570709137094008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 1658
+        width: 258
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923fb7b363e1862e0800000000000000
+      internalID: -2132421205284883671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 2488
+        y: 1658
+        width: 272
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 868f7c28b140a4c90800000000000000
+      internalID: -7184925739311433624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 2787
+        y: 1655
+        width: 232
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1760ec89119bd38e0800000000000000
+      internalID: -1712008798101698959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 1184
+        width: 233
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4bdbd2bccb4a6900800000000000000
+      internalID: 678438036418845519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 1185
+        width: 328
+        height: 389
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d685d40e5244c1d0800000000000000
+      internalID: -3331464852771862829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 1181
+        width: 239
+        height: 384
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 443ca9ce14063a700800000000000000
+      internalID: 550389415728038724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 1182
+        width: 235
+        height: 425
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7009791ecbf84bb0800000000000000
+      internalID: -4951430927684665218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1183
+        width: 312
+        height: 366
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cd16d87e30683140800000000000000
+      internalID: 4699612032592649672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 1802
+        y: 1181
+        width: 337
+        height: 345
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b6713f53b57abca0800000000000000
+      internalID: -6000354140261091656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 728
+        width: 352
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff7a14b2c6c150f0800000000000000
+      internalID: -1129903491945693193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 727
+        width: 336
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adcd41a662f76a590800000000000000
+      internalID: -7663297912959083302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 729
+        width: 334
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504703efa82412f40800000000000000
+      internalID: 5701911767965266949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 730
+        width: 334
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c93d165d1669b820800000000000000
+      internalID: 2934488908393429440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 724
+        width: 334
+        height: 393
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a27df51c2147c60800000000000000
+      internalID: 7814891875140577830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 1826
+        y: 731
+        width: 334
+        height: 386
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15e7da91ed2d10530800000000000000
+      internalID: 3819565810342264401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 2178
+        y: 731
+        width: 334
+        height: 428
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87f0a1e877d28d8e0800000000000000
+      internalID: -1668533670432338056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 723
+        width: 334
+        height: 394
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dea0c81437c487a0800000000000000
+      internalID: -6375752145882272048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 305
+        width: 336
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cdbbe4b317154650800000000000000
+      internalID: 6216400234062003653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 303
+        width: 321
+        height: 388
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e20cdcbcd9cf1520800000000000000
+      internalID: 2675078653579887334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 815
+        y: 307
+        width: 262
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843e9414001245f90800000000000000
+      internalID: -6965906438656236728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 306
+        width: 252
+        height: 387
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9a4d8577e294550800000000000000
+      internalID: 6145494256650070445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 80
+        width: 114
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d22821fe1c578b30800000000000000
+      internalID: 4289498458058400466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 68
+        width: 99
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c47b1c9b92888730800000000000000
+      internalID: 4001591873769272517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 68
+        width: 188
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bdd42da7b5f390a0800000000000000
+      internalID: -6875882036831920717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 185
+        width: 25
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 860594948e96d2c30800000000000000
+      internalID: 4336238462610526312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 72
+        width: 102
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99669de4ed29f57a0800000000000000
+      internalID: -6386224263084808551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_32
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 68
+        width: 99
+        height: 122
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f35f7f69eccec120800000000000000
+      internalID: 2436109751424078834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_33
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 184
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c828b6448e24ca090800000000000000
+      internalID: -8021963270905953652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_34
+      rect:
+        serializedVersion: 2
+        x: 1084
+        y: 85
+        width: 99
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d4cc288bf2741f0800000000000000
+      internalID: -1060826717707547241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_35
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 84
+        width: 84
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af72b0514f7c3c5c0800000000000000
+      internalID: -4196290576640169990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_36
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 60
+        width: 117
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a7b02f4a90c102d0800000000000000
+      internalID: -3314156081782933591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_37
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 92
+        width: 86
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5fbd42084c067a60800000000000000
+      internalID: 7671332518688046941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_38
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 86
+        width: 76
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d907089cf19d9050800000000000000
+      internalID: 5808959608446192088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_39
+      rect:
+        serializedVersion: 2
+        x: 792
+        y: 97
+        width: 81
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5072d282bd58d6000800000000000000
+      internalID: 30827948779841285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_40
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 77
+        width: 70
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cb058a383ab91ac0800000000000000
+      internalID: -3883868452967609408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: MegaBirdSpritesheet_41
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 71
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfe98ef2257fb9d0800000000000000
+      internalID: -2756355653767663689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      MegaBirdSpritesheet_0: 8822859207932843454
+      MegaBirdSpritesheet_1: 4030704793283507129
+      MegaBirdSpritesheet_10: -3331464852771862829
+      MegaBirdSpritesheet_11: 550389415728038724
+      MegaBirdSpritesheet_12: -4951430927684665218
+      MegaBirdSpritesheet_13: 4699612032592649672
+      MegaBirdSpritesheet_14: -6000354140261091656
+      MegaBirdSpritesheet_15: -1129903491945693193
+      MegaBirdSpritesheet_16: -7663297912959083302
+      MegaBirdSpritesheet_17: 5701911767965266949
+      MegaBirdSpritesheet_18: 2934488908393429440
+      MegaBirdSpritesheet_19: 7814891875140577830
+      MegaBirdSpritesheet_2: -3126098753307516930
+      MegaBirdSpritesheet_20: 3819565810342264401
+      MegaBirdSpritesheet_21: -1668533670432338056
+      MegaBirdSpritesheet_22: -6375752145882272048
+      MegaBirdSpritesheet_23: 6216400234062003653
+      MegaBirdSpritesheet_24: 2675078653579887334
+      MegaBirdSpritesheet_25: -6965906438656236728
+      MegaBirdSpritesheet_26: 6145494256650070445
+      MegaBirdSpritesheet_27: 4289498458058400466
+      MegaBirdSpritesheet_28: 4001591873769272517
+      MegaBirdSpritesheet_29: -6875882036831920717
+      MegaBirdSpritesheet_3: 3204246339943156301
+      MegaBirdSpritesheet_30: 4336238462610526312
+      MegaBirdSpritesheet_31: -6386224263084808551
+      MegaBirdSpritesheet_32: 2436109751424078834
+      MegaBirdSpritesheet_33: -8021963270905953652
+      MegaBirdSpritesheet_34: -1060826717707547241
+      MegaBirdSpritesheet_35: -4196290576640169990
+      MegaBirdSpritesheet_36: -3314156081782933591
+      MegaBirdSpritesheet_37: 7671332518688046941
+      MegaBirdSpritesheet_38: 5808959608446192088
+      MegaBirdSpritesheet_39: 30827948779841285
+      MegaBirdSpritesheet_4: 3865451504544332572
+      MegaBirdSpritesheet_40: -3883868452967609408
+      MegaBirdSpritesheet_41: -2756355653767663689
+      MegaBirdSpritesheet_5: 1203570709137094008
+      MegaBirdSpritesheet_6: -2132421205284883671
+      MegaBirdSpritesheet_7: -7184925739311433624
+      MegaBirdSpritesheet_8: -1712008798101698959
+      MegaBirdSpritesheet_9: 678438036418845519
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

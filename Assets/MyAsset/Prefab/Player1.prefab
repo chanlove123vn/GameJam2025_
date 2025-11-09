@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 9110674771441454897}
   - component: {fileID: 311133554201514477}
   - component: {fileID: 3022760324497472946}
+  - component: {fileID: 1203448561252364627}
   m_Layer: 0
   m_Name: Player1
   m_TagString: Untagged
@@ -207,7 +208,34 @@ MonoBehaviour:
   rb: {fileID: 2853269236948042094}
   source: {fileID: 0}
   col: {fileID: 311133554201514477}
+  anim: {fileID: 0}
+  sprite: {fileID: 0}
+  state: 0
+  projectileBuffDuration: 10
+  spreadAngle: 30
   moveInput: {x: 0, y: 0}
-  bulletPrefab: {fileID: 0}
+  bulletPrefab: {fileID: 7526605631511244251, guid: c60266672446e6d4fb90a05d116b6881, type: 3}
   firePoint: {fileID: 1145168860625587122}
-  timer: 0
+  fireCooldown: 0.35
+--- !u!95 &1203448561252364627
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8591783955434643740}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 6ff76d020764ead4e94b3fd4200c8db7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

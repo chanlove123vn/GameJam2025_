@@ -16,7 +16,7 @@ public abstract class MonsterAbstract : ObjectPooled
     //===Variables===//
     [Header("===Components===")]
     [SerializeField] public Rigidbody2D rb;
-    [SerializeField] protected CapsuleCollider2D bodyCol;
+    [SerializeField] protected Collider2D bodyCol;
 
     [Header("===Status===")]
     [SerializeField] public float moveSpeed;
@@ -33,22 +33,23 @@ public abstract class MonsterAbstract : ObjectPooled
     {
         base.LoadComponent();
         if (!rb) this.rb = GetComponent<Rigidbody2D>();
-        if (!bodyCol) this.bodyCol = GetComponent<CapsuleCollider2D>(); 
+        if (!bodyCol) this.bodyCol = GetComponent<Collider2D>(); 
     }
     public override void OnSpawn()
     {
-        this.ResetHP();
+        this.ResetState();
         timer = 0;
     }
-    protected virtual void Start()
+    protected override void Start()
     {
-        this.ResetHP();
+        this.ResetState();
     }
 
     //===Method===//
-    protected virtual void ResetHP()
+    protected virtual void ResetState()
     {
         HP = baseHP;
+        currentState = MonsterState.ALIVE;
     }
 
     public virtual void TakeDamage(float damage)
@@ -57,15 +58,18 @@ public abstract class MonsterAbstract : ObjectPooled
         Debug.Log($"{gameObject.name} takes {damage} damage. HP: {HP}/{baseHP}");
         if (HP <= 0)
         {
-            this.Die();
+            HP = 0f;
+            currentState = MonsterState.DEAD;
+            Die();
         }
     }
 
     protected virtual void Die()
     {
-        Debug.Log($"{gameObject.name} died!");
-        Destroy(this.gameObject);
+        Debug.Log("Monster die");
+        Destroy(gameObject);
     }
+
 
     public float GetHP() => HP;
     public float GetBaseHP() => baseHP;

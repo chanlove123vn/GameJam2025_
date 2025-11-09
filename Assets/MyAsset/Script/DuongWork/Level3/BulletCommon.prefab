@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2691752253412571300}
   - component: {fileID: 6280532891108517792}
   - component: {fileID: 6087134079821312875}
+  - component: {fileID: 6071440116080450148}
   m_Layer: 0
   m_Name: BulletCommon
   m_TagString: Untagged
@@ -168,3 +169,30 @@ MonoBehaviour:
   timer: 0
   damage: 1
   hitPoint: {fileID: 6280532891108517792}
+--- !u!50 &6071440116080450148
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6182109022454794926}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

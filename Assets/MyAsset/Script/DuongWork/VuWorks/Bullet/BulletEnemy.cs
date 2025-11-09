@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Bullet : ObjectPooled
+public class BulletEnemy : ObjectPooled
 {
     //===Variables===//
     [SerializeField] private float speed = 5f;
@@ -50,13 +50,11 @@ public class Bullet : ObjectPooled
         transform.rotation = Quaternion.Euler(direction);
     }
     
-    // Note FUCK U: CHANGE TO PLAYER FUCK UUUUUUUUUU
     private void OnTriggerEnter2D(Collider2D collision) {
-    EnemyPlane enemy = collision.GetComponent<EnemyPlane>();
-    if (enemy != null) {
-        // Debug.Log($"Bullet damage: {damage}");
-        // enemy.TakeDamage(damage);
-        // PoolingManager.Instance.GetPoolCtrl(this).ReturnToPool(this);
+        if(collision.TryGetComponent<PlayerAbstract>(out var player))
+        {
+            player.Deduct((int)damage);
+        }
     }
 }
-}
+

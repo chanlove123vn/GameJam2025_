@@ -11,7 +11,7 @@ public class PlayerLevel1 : PlayerAbstract
     [SerializeField] private Transform firePoint;
 
     [Header("Fire")]
-    [SerializeField] private float fireCooldown = 0.35f;
+    [SerializeField] private float fireCooldown = 0.5f;
     private float fireTimer;
 
     
@@ -41,6 +41,7 @@ public class PlayerLevel1 : PlayerAbstract
         base.InitPlayer();
         speed = 15;
         dame = 0;
+        fireCooldown = .5f;
     }
 
     protected override void Moving()
@@ -67,7 +68,7 @@ public class PlayerLevel1 : PlayerAbstract
                 pool.Spawn(bulletPrefab, firePoint.position, rot);
             }
         }
-        else
+        else if (state == FireMode.Normal)
         {
             pool.Spawn(bulletPrefab, firePoint.position, firePoint.rotation);
         }

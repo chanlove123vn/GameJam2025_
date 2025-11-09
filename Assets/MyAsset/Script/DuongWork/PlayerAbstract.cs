@@ -70,9 +70,9 @@ public abstract class PlayerAbstract : LoadComponentMonoBehavior
         rb.linearVelocity = Vector2.zero;
     }
 
-    public void Deduct()
+    public void Deduct(int damage)
     {
-        HP -= 1;
+        HP -= damage;
         if (HP <= 0)
         {
             HP = 0;

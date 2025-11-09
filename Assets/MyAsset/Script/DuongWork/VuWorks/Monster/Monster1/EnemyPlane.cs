@@ -5,7 +5,7 @@ public class EnemyPlane : MonsterAbstract
     //===Variables===//
     [Header("===Shotting===")]
     [SerializeField] private Vector2 bulletDirection = Vector2.down;
-    [SerializeField] protected Bullet bulletPrefab;
+    [SerializeField] protected BulletEnemy bulletPrefab;
     [SerializeField] protected Transform firePoint;
     // private float spawnTime = 0f; // Timer để despawn sau lmao s
 
@@ -33,12 +33,6 @@ public class EnemyPlane : MonsterAbstract
     {
         this.Moving();
         this.Shooting();
-
-        // // Despawn sau lmao giây
-        // if (Time.time - spawnTime > 10f)
-        // {
-        //     PoolingManager.Instance.GetPoolCtrl(this).ReturnToPool(this);
-        // }
     }
 
     public void Shooting()
@@ -55,9 +49,9 @@ public class EnemyPlane : MonsterAbstract
     {
         if (bulletPrefab == null || firePoint == null) return;
 
-        Bullet bullet = PoolingManager.Instance.GetPoolCtrl(bulletPrefab)
+        BulletEnemy bullet = PoolingManager.Instance.GetPoolCtrl(bulletPrefab)
                                                 .Spawn(bulletPrefab, firePoint.position, Quaternion.Euler(0, 0, -90))
-                                                .GetComponent<Bullet>();
+                                                .GetComponent<BulletEnemy>();
         if (bullet != null)
         {
             bullet.transform.position = firePoint.position;

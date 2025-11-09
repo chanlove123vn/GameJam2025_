@@ -47,7 +47,11 @@ public class BulletPlayerLv1 : ObjectPooled
     }
     protected virtual void OnTriggerEnter2D(Collider2D collider)
     {
-        //if(collider.GetComponent<Enemy>)
+        if(collider.TryGetComponent<MonsterAbstract>(out var monster))
+        {
+            monster.TakeDamage(damage);
+            TurnOffBullet();
+        }
         
     }
 

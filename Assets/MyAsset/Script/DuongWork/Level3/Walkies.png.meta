@@ -1,0 +1,572 @@
+fileFormatVersion: 2
+guid: 92bdc3cd28f3cf44094a3c912b5d8345
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 438000242245907096
+    second: Walkies_0
+  - first:
+      213: -7994917077347948191
+    second: Walkies_1
+  - first:
+      213: 2590761276495597849
+    second: Walkies_2
+  - first:
+      213: -1203296110650401020
+    second: Walkies_3
+  - first:
+      213: -6649451850082002611
+    second: Walkies_4
+  - first:
+      213: -1693393572151765401
+    second: Walkies_5
+  - first:
+      213: 3184676007794529540
+    second: Walkies_6
+  - first:
+      213: 3378630505489275436
+    second: Walkies_7
+  - first:
+      213: -2264470182505414659
+    second: Walkies_8
+  - first:
+      213: -3543403172232684896
+    second: Walkies_9
+  - first:
+      213: 8620564454439129342
+    second: Walkies_10
+  - first:
+      213: 6613435620278823381
+    second: Walkies_11
+  - first:
+      213: 3254688152662086681
+    second: Walkies_12
+  - first:
+      213: 1145168755368756574
+    second: Walkies_13
+  - first:
+      213: -1475273975793016681
+    second: Walkies_14
+  - first:
+      213: 3239603018680954734
+    second: Walkies_15
+  - first:
+      213: -431957107861501171
+    second: Walkies_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Walkies_0
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 1510
+        width: 509
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8923a9256e6141600800000000000000
+      internalID: 438000242245907096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkies_1
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 1515
+        width: 509
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169a8fbe6495c0190800000000000000
+      internalID: -7994917077347948191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkies_2
+      rect:
+        serializedVersion: 2
+        x: 1317
+        y: 1511
+        width: 509
+        height: 304
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9119b5f87ab34f320800000000000000
+      internalID: 2590761276495597849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkies_3
+      rect:
+        serializedVersion: 2
+        x: 1901
+        y: 1515
+        width: 509
+        height: 348
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40fd21d00980d4fe0800000000000000
+      internalID: -1203296110650401020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkies_4
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 1510
+        width: 509
+        height: 377
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d495cccc5c668b3a0800000000000000
+      internalID: -6649451850082002611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkies_5
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1103
+        width: 475
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766d6f2a48bdf78e0800000000000000
+      internalID: -1693393572151765401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkies_6
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 1108
+        width: 475
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4055d49b4fd323c20800000000000000
+      internalID: 3184676007794529540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkies_7
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 1100
+        width: 475
+        height: 309
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a9cf24b8e43ee20800000000000000
+      internalID: 3378630505489275436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkies_8
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 1108
+        width: 475
+        height: 333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfffc4fdd5cf290e0800000000000000
+      internalID: -2264470182505414659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkies_9
+      rect:
+        serializedVersion: 2
+        x: 2512
+        y: 1103
+        width: 475
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aa141fa69d43dec0800000000000000
+      internalID: -3543403172232684896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkies_10
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 474
+        width: 461
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef0143692b562a770800000000000000
+      internalID: 8620564454439129342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkies_11
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 471
+        width: 467
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d962ab38a4a7cb50800000000000000
+      internalID: 6613435620278823381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkies_12
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 469
+        width: 476
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 914981a71a9fa2d20800000000000000
+      internalID: 3254688152662086681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkies_13
+      rect:
+        serializedVersion: 2
+        x: 1759
+        y: 471
+        width: 467
+        height: 430
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5581a76ae474ef00800000000000000
+      internalID: 1145168755368756574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkies_14
+      rect:
+        serializedVersion: 2
+        x: 2337
+        y: 474
+        width: 461
+        height: 466
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790aa76a226c68be0800000000000000
+      internalID: -1475273975793016681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkies_15
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 113
+        width: 466
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6fe2c508c165fc20800000000000000
+      internalID: 3239603018680954734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walkies_16
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 119
+        width: 461
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0bc5bb8c41610af0800000000000000
+      internalID: -431957107861501171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Walkies_0: 438000242245907096
+      Walkies_1: -7994917077347948191
+      Walkies_10: 8620564454439129342
+      Walkies_11: 6613435620278823381
+      Walkies_12: 3254688152662086681
+      Walkies_13: 1145168755368756574
+      Walkies_14: -1475273975793016681
+      Walkies_15: 3239603018680954734
+      Walkies_16: -431957107861501171
+      Walkies_2: 2590761276495597849
+      Walkies_3: -1203296110650401020
+      Walkies_4: -6649451850082002611
+      Walkies_5: -1693393572151765401
+      Walkies_6: 3184676007794529540
+      Walkies_7: 3378630505489275436
+      Walkies_8: -2264470182505414659
+      Walkies_9: -3543403172232684896
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -63,7 +63,7 @@ public class PlayerLevel3 : PlayerAbstract
         MoveTimerCount();
 
         Jumping();
-        if (state == FireMode.Project)
+        if (state == FireMode.ProjectStraight)
         {
             projectileBuffTimer -= Time.deltaTime;
             if (projectileBuffTimer <= 0f) state = FireMode.Normal;
@@ -185,7 +185,7 @@ public class PlayerLevel3 : PlayerAbstract
         bool shootHeld = im.GetShootPress();
         bool shootRelease = im.GetShoot();      
 
-        if (state == FireMode.Project && burstLeft > 0)
+        if (state == FireMode.ProjectAngle && burstLeft > 0)
         {
             burstTimer -= Time.deltaTime;
             if (burstTimer <= 0f)
@@ -211,7 +211,7 @@ public class PlayerLevel3 : PlayerAbstract
                 return;
             }
 
-            if (state == FireMode.Project && fireTimer >= fireCommonCooldown && burstLeft == 0)
+            if (state == FireMode.ProjectStraight && fireTimer >= fireCommonCooldown && burstLeft == 0)
             {
                 var pool = PoolingManager.Instance.GetPoolCtrl(bulletCommonPrefab);
                 var rot = Quaternion.Euler(0, 0, facing == 1 ? -90f : 90f);

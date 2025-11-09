@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class BuffProjectile : Buff
+public class BuffProjectileTripleAngle : Buff
 {
     protected override void Effecting(PlayerAbstract p)
     {
-        p.ProjectileBuff();
+        p.ProjectileBuffTrippleAngle();
     }
     public override void OnSpawn()
     {

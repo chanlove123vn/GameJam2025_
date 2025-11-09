@@ -15,8 +15,9 @@ public abstract class Buff : ObjectPooled
         if (col.TryGetComponent<PlayerAbstract>(out var player))
         {
             Effecting(player);
+            this.gameObject.SetActive(false);
         }
-        this.gameObject.SetActive(false);
+        
     }
     protected abstract void Effecting(PlayerAbstract p);
 }

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class PlayerLevel1 : PlayerAbstract
 {
@@ -12,15 +13,25 @@ public class PlayerLevel1 : PlayerAbstract
 
     [Header("Fire")]
     [SerializeField] private float fireCooldown = 0.5f;
+    [SerializeField] private float delayBullet = 0.03f;
+    [SerializeField] private bool isBursting = false; 
     private float fireTimer;
 
-    
+
 
     protected override void Update()
     {
         base.Update();
 
-        if (state == FireMode.Project)
+        if (state == FireMode.ProjectAngle)
+        {
+            projectileBuffTimer -= Time.deltaTime;
+            if (projectileBuffTimer <= 0f)
+            {
+                state = FireMode.Normal;
+            }
+        }
+        if (state == FireMode.ProjectStraight)
         {
             projectileBuffTimer -= Time.deltaTime;
             if (projectileBuffTimer <= 0f)
@@ -59,7 +70,7 @@ public class PlayerLevel1 : PlayerAbstract
         fireTimer = 0f;
         var pool = PoolingManager.Instance.GetPoolCtrl(bulletPrefab);
 
-        if (state == FireMode.Project)
+        if (state == FireMode.ProjectAngle)
         {
             float[] angles = { -spreadAngle, 0f, spreadAngle };
             foreach (var a in angles)
@@ -68,11 +79,28 @@ public class PlayerLevel1 : PlayerAbstract
                 pool.Spawn(bulletPrefab, firePoint.position, rot);
             }
         }
+        else if (state == FireMode.ProjectStraight)
+        {
+            if (!isBursting) StartCoroutine(FireStraightBurst());
+
+        }
         else if (state == FireMode.Normal)
         {
             pool.Spawn(bulletPrefab, firePoint.position, firePoint.rotation);
         }
     }
 
-    
+    private IEnumerator FireStraightBurst()
+    {
+        isBursting = true;
+        var pool = PoolingManager.Instance.GetPoolCtrl(bulletPrefab);
+
+        for (int i = 0; i < 3; i++)
+        {
+            pool.Spawn(bulletPrefab, firePoint.position, firePoint.rotation);
+            if (i < 2) yield return new WaitForSeconds(delayBullet);
+        }
+
+        isBursting = false;
+    }
 }

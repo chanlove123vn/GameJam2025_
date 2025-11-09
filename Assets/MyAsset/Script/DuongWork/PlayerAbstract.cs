@@ -17,7 +17,7 @@ public abstract class PlayerAbstract : LoadComponentMonoBehavior
     protected int facing = 1;
 
 
-    public enum FireMode { Normal, Project }
+    public enum FireMode { Normal, ProjectAngle, ProjectStraight }
     [Header("Projectile Buff")]
     [SerializeField] protected FireMode state = FireMode.Normal;
     [SerializeField] protected float projectileBuffDuration = 10f;
@@ -100,9 +100,14 @@ public abstract class PlayerAbstract : LoadComponentMonoBehavior
         HP += 1;
     }
 
-    public void ProjectileBuff()
+    public void ProjectileBuffTrippleAngle()
     {
-        state = FireMode.Project;
+        state = FireMode.ProjectAngle;
+        projectileBuffTimer = projectileBuffDuration;
+    }
+    public void ProjectileBuffTrippleStraight()
+    {
+        state = FireMode.ProjectStraight;
         projectileBuffTimer = projectileBuffDuration;
     }
 

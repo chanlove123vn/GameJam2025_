@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 2047639212881885354}
   - component: {fileID: 9103443617111697832}
   - component: {fileID: 2303244629594179317}
-  - component: {fileID: 5197330430695403768}
+  - component: {fileID: 2751765623918988411}
   m_Layer: 0
-  m_Name: ProjectileBuffLV1
+  m_Name: ProjectileStraightBuffLV1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 4969812904899888592, guid: c3ba73ca90ed68c48a73af8d51f9f064, type: 3}
+  m_Sprite: {fileID: -6053118883593941983, guid: c3ba73ca90ed68c48a73af8d51f9f064, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -128,7 +128,7 @@ CircleCollider2D:
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
   m_Radius: 0.34
---- !u!114 &5197330430695403768
+--- !u!114 &2751765623918988411
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -137,7 +137,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6555122369065149205}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f625278c525b3f243b8349924c10bd25, type: 3}
+  m_Script: {fileID: 11500000, guid: 8c4857928d64ae643ad7ee33fa6561ce, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BuffProjectile
+  m_EditorClassIdentifier: Assembly-CSharp::BuffProjectileTripleStraight
   col: {fileID: 2303244629594179317}

@@ -6,35 +6,40 @@ public enum MonsterState
     MOVING = 1,
     HIT = 2,
     DEAD = 3,
+    IDLE = 4,
 }
 
 
-public abstract class MonsterAbstract : HuyMonoBehaviour
+public abstract class MonsterAbstract : ObjectPooled
 {
 
     //===Variables===//
     [Header("===Components===")]
-    [SerializeField] protected Rigidbody2D rb;
+    [SerializeField] public Rigidbody2D rb;
     [SerializeField] protected CapsuleCollider2D bodyCol;
 
     [Header("===Status===")]
-    [SerializeField] protected float moveSpeed;
+    [SerializeField] public float moveSpeed;
     [SerializeField] protected MonsterState currentState = MonsterState.ALIVE;
-    [SerializeField] protected Vector2 moveDir;
+    [SerializeField] public Vector2 moveDir;
     [SerializeField] protected float timer = 0;
 
     [Header("===HP===")]
-    [SerializeField] protected float baseHP = 5f;
+    [SerializeField] protected float baseHP = 2f;
     protected float HP;
 
     //===Unity===//
-    public override void LoadComponents()
+    protected override void LoadComponent()
     {
-        base.LoadComponents();
-        this.LoadComponent(ref this.rb, transform, "LoadRb()");
-        this.LoadComponent(ref this.bodyCol, transform, "LoadBodyCol()");
+        base.LoadComponent();
+        if (!rb) this.rb = GetComponent<Rigidbody2D>();
+        if (!bodyCol) this.bodyCol = GetComponent<CapsuleCollider2D>(); 
     }
-
+    public override void OnSpawn()
+    {
+        this.ResetHP();
+        timer = 0;
+    }
     protected virtual void Start()
     {
         this.ResetHP();

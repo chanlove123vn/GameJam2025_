@@ -3,7 +3,7 @@ using UnityEngine;
 public class Bullet : ObjectPooled
 {
     //===Variables===//
-    [SerializeField] private float speed = 10f;
+    [SerializeField] private float speed = 5f;
     [SerializeField] private float damage = 1f;
     private float timer = 0;
 
@@ -32,6 +32,7 @@ public class Bullet : ObjectPooled
     public override void OnSpawn()
     {
         this.Moving();
+        timer = 0;
     }
 
     private void DespawningByTime()
@@ -53,8 +54,9 @@ public class Bullet : ObjectPooled
     private void OnTriggerEnter2D(Collider2D collision) {
     EnemyPlane enemy = collision.GetComponent<EnemyPlane>();
     if (enemy != null) {
-        enemy.TakeDamage(damage);
-        PoolingManager.Instance.GetPoolCtrl(this).ReturnToPool(this);
+        // Debug.Log($"Bullet damage: {damage}");
+        // enemy.TakeDamage(damage);
+        // PoolingManager.Instance.GetPoolCtrl(this).ReturnToPool(this);
     }
 }
 }

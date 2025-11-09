@@ -2,18 +2,23 @@ using UnityEngine;
 
 public class EnemyPlane : MonsterAbstract
 {
-
     //===Variables===//
     [Header("===Shotting===")]
     [SerializeField] private Vector2 bulletDirection = Vector2.down;
     [SerializeField] protected Bullet bulletPrefab;
     [SerializeField] protected Transform firePoint;
-
+    // private float spawnTime = 0f; // Timer để despawn sau lmao s
 
     //===Unity===//
-    public override void LoadComponents()
+    protected override void LoadComponent()
     {
-        this.LoadComponent(ref this.firePoint, transform, "FirePoint");
+        if (!firePoint) this.firePoint = this.transform.Find("FirePoint");
+    }
+
+    public override void OnSpawn()
+    {
+        base.OnSpawn();
+        // spawnTime = Time.time; // Ghi lại thời gian spawn
     }
 
     //===Method===//
@@ -28,6 +33,12 @@ public class EnemyPlane : MonsterAbstract
     {
         this.Moving();
         this.Shooting();
+
+        // // Despawn sau lmao giây
+        // if (Time.time - spawnTime > 10f)
+        // {
+        //     PoolingManager.Instance.GetPoolCtrl(this).ReturnToPool(this);
+        // }
     }
 
     public void Shooting()
@@ -45,7 +56,7 @@ public class EnemyPlane : MonsterAbstract
         if (bulletPrefab == null || firePoint == null) return;
 
         Bullet bullet = PoolingManager.Instance.GetPoolCtrl(bulletPrefab)
-                                                .Spawn(bulletPrefab,firePoint.position, firePoint.rotation)
+                                                .Spawn(bulletPrefab, firePoint.position, Quaternion.Euler(0, 0, -90))
                                                 .GetComponent<Bullet>();
         if (bullet != null)
         {

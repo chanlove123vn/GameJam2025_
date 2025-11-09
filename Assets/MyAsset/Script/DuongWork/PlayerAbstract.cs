@@ -47,8 +47,9 @@ public abstract class PlayerAbstract : LoadComponentMonoBehavior
 
     protected virtual void InitPlayer()
     {
-        HP = baseHP;
+
         baseHP = 3;
+        HP = baseHP;
     }
 
     protected abstract void Attacking();

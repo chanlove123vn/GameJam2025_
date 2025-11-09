@@ -8,6 +8,7 @@ public class PlayerLevel2 : PlayerAbstract
     [SerializeField] private float speedUp;
     [SerializeField] private float speedDown;
     [SerializeField] private float timer;
+    [SerializeField] private float moveEpsilon = 0.05f;
 
 
     // Jump feel
@@ -44,6 +45,7 @@ public class PlayerLevel2 : PlayerAbstract
         MoveTimerCount();
 
         Jumping();
+        ToggleAnimatorByMovement();
     }
 
     protected override void LoadComponent()
@@ -59,7 +61,7 @@ public class PlayerLevel2 : PlayerAbstract
         base.InitPlayer();
         speed = 18;
         dame = 0;
-        speedUp = 0.8f;
+        speedUp = 1.7f;
         jumpPower = 18f;
         speedDown = 1.5f;
         if (rb != null) rb.gravityScale = baseGravity;
@@ -170,5 +172,10 @@ public class PlayerLevel2 : PlayerAbstract
         bufferTimer = Mathf.Max(0f, bufferTimer - Time.deltaTime);
         coyoteTimer = Mathf.Max(0f, coyoteTimer - Time.deltaTime);
     }
+    private void ToggleAnimatorByMovement() {
+    if (!anim) return;
+    bool isMoving = rb.linearVelocity.sqrMagnitude > moveEpsilon * moveEpsilon;
+    anim.enabled = isMoving;
+}
 
 }

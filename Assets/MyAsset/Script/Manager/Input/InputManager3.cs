@@ -18,5 +18,6 @@ public class InputManager3 : Singleton<InputManager3>
         return new Vector2(xDir, yDir).normalized;
     }
 
-    public bool GetJump() => Input.GetKey(jumpKey);
+    public bool GetJump() => Input.GetKeyDown(jumpKey);
+    public bool GetJumpHeld() => Input.GetKey(jumpKey);
 }

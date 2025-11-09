@@ -20,6 +20,8 @@ public class InputManager4 : Singleton<InputManager4>
         return new Vector2(xDir, yDir).normalized;
     }
 
-    public bool GetJump() => Input.GetKey(jumpKey);
-    public bool GetShoot() => Input.GetKey(shootKey);
+    public bool GetJump() => Input.GetKeyDown(jumpKey);
+    public bool GetJumpHeld() => Input.GetKey(jumpKey);
+    public bool GetShootPress() => Input.GetKey(shootKey);
+    public bool GetShoot() => Input.GetKeyUp(shootKey);
 }

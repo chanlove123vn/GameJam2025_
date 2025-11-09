@@ -12,11 +12,11 @@ public abstract class Buff : ObjectPooled
     }
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.TryGetComponent<PlayerLevel1>(out var player))
+        if (col.TryGetComponent<PlayerAbstract>(out var player))
         {
             Effecting(player);
         }
         this.gameObject.SetActive(false);
     }
-    protected abstract void Effecting(PlayerLevel1 p);
+    protected abstract void Effecting(PlayerAbstract p);
 }

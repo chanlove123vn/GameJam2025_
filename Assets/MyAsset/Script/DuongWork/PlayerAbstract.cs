@@ -2,6 +2,7 @@ using UnityEngine;
 
 public abstract class PlayerAbstract : LoadComponentMonoBehavior
 {
+    
     public int HP;
     public int baseHP = 3;
     [SerializeField] protected float speed;
@@ -11,6 +12,17 @@ public abstract class PlayerAbstract : LoadComponentMonoBehavior
     [SerializeField] protected Rigidbody2D rb;
     [SerializeField] protected AudioSource source;
     [SerializeField] protected Collider2D col;
+    [SerializeField] protected Animator anim;
+    [SerializeField] protected SpriteRenderer sprite;
+    protected int facing = 1;
+    
+
+    public enum FireMode { Normal, Project }
+    [Header("Projectile Buff")]
+    [SerializeField] protected FireMode state = FireMode.Normal;
+    [SerializeField] protected float projectileBuffDuration = 10f;
+    protected float projectileBuffTimer;
+    [SerializeField] protected float spreadAngle = 30f; 
 
 
     protected virtual void Update()
@@ -29,9 +41,15 @@ public abstract class PlayerAbstract : LoadComponentMonoBehavior
         rb = GetComponent<Rigidbody2D>();
         IsDead = false;
         if (!col) col = GetComponent<Collider2D>();
+        if (!anim) anim = GetComponent<Animator>();
+        if(!sprite) sprite = GetComponent<SpriteRenderer>();
     }
 
-    protected abstract void InitPlayer();
+    protected virtual void InitPlayer()
+    {
+        HP = baseHP;
+        baseHP = 3;
+    }
     
     protected abstract void Attacking();
     protected abstract void Moving();
@@ -60,6 +78,17 @@ public abstract class PlayerAbstract : LoadComponentMonoBehavior
             HP = 0;
             Die();
         }
+    }
+    public void HealingBuff()
+    {
+        if (HP >= baseHP) return;
+        HP += 1;
+    }
+
+    public void ProjectileBuff()
+    {
+        state = FireMode.Project;
+        projectileBuffTimer = projectileBuffDuration;
     }
 
 

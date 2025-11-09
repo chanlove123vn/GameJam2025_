@@ -5,21 +5,16 @@ using UnityEngine;
 
 public class PlayerLevel1 : PlayerAbstract
 {
-    public enum FireMode { Normal, Project }
 
     [SerializeField] private Vector2 moveInput;
-    [SerializeField] private BulletPlayer bulletPrefab;
+    [SerializeField] private BulletPlayerLv1 bulletPrefab;
     [SerializeField] private Transform firePoint;
 
     [Header("Fire")]
     [SerializeField] private float fireCooldown = 0.35f;
-    [SerializeField] private float spreadAngle = 30f; 
     private float fireTimer;
 
-    [Header("Projectile Buff")]
-    [SerializeField] private FireMode state = FireMode.Normal;
-    [SerializeField] private float projectileBuffDuration = 10f;
-    private float projectileBuffTimer;
+    
 
     protected override void Update()
     {
@@ -43,8 +38,7 @@ public class PlayerLevel1 : PlayerAbstract
 
     protected override void InitPlayer()
     {
-        baseHP = 100;
-        HP = baseHP;
+        base.InitPlayer();
         speed = 15;
         dame = 0;
     }
@@ -79,15 +73,5 @@ public class PlayerLevel1 : PlayerAbstract
         }
     }
 
-    public void HealingBuff()
-    {
-        if (HP >= baseHP) return;
-        HP += 1;
-    }
-
-    public void ProjectileBuff()
-    {
-        state = FireMode.Project;
-        projectileBuffTimer = projectileBuffDuration;
-    }
+    
 }

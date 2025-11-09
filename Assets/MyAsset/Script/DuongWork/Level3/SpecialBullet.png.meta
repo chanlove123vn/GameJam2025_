@@ -1,0 +1,1247 @@
+fileFormatVersion: 2
+guid: 1f9249b9bc4d31347a6c9ff7ab5f4b64
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8036708107006817291
+    second: SpecialBullet_0
+  - first:
+      213: 1922807455294176207
+    second: SpecialBullet_1
+  - first:
+      213: 7733256385709741456
+    second: SpecialBullet_2
+  - first:
+      213: 3073325628480822310
+    second: SpecialBullet_3
+  - first:
+      213: 8918461894413021639
+    second: SpecialBullet_4
+  - first:
+      213: -7468606399065674007
+    second: SpecialBullet_5
+  - first:
+      213: 7357429633091707786
+    second: SpecialBullet_6
+  - first:
+      213: -6622264776937949110
+    second: SpecialBullet_7
+  - first:
+      213: -5121435485689203268
+    second: SpecialBullet_8
+  - first:
+      213: -4089179485017151203
+    second: SpecialBullet_9
+  - first:
+      213: -1956798636858304594
+    second: SpecialBullet_10
+  - first:
+      213: 8266943928331957781
+    second: SpecialBullet_11
+  - first:
+      213: -5744413333418876470
+    second: SpecialBullet_12
+  - first:
+      213: 137485478649863310
+    second: SpecialBullet_13
+  - first:
+      213: 6281893956324671354
+    second: SpecialBullet_14
+  - first:
+      213: -2384655597112867328
+    second: SpecialBullet_15
+  - first:
+      213: 2948402819333760911
+    second: SpecialBullet_16
+  - first:
+      213: -1396495714217084149
+    second: SpecialBullet_17
+  - first:
+      213: -3567497164477547126
+    second: SpecialBullet_18
+  - first:
+      213: 7848317086788163110
+    second: SpecialBullet_19
+  - first:
+      213: -6838499900678790928
+    second: SpecialBullet_20
+  - first:
+      213: -5945784481214273275
+    second: SpecialBullet_21
+  - first:
+      213: -7835875475607998228
+    second: SpecialBullet_22
+  - first:
+      213: -5289143893677842446
+    second: SpecialBullet_23
+  - first:
+      213: -4949351817086474887
+    second: SpecialBullet_24
+  - first:
+      213: -513320936579652371
+    second: SpecialBullet_25
+  - first:
+      213: -2144510087977906859
+    second: SpecialBullet_26
+  - first:
+      213: 3864839458631459312
+    second: SpecialBullet_27
+  - first:
+      213: 5714427772833644665
+    second: SpecialBullet_28
+  - first:
+      213: -3207506241434706155
+    second: SpecialBullet_29
+  - first:
+      213: -7163634857222108710
+    second: SpecialBullet_30
+  - first:
+      213: 2336412327234534874
+    second: SpecialBullet_31
+  - first:
+      213: 7977481461437999671
+    second: SpecialBullet_32
+  - first:
+      213: 1499568637160872922
+    second: SpecialBullet_33
+  - first:
+      213: -5404863738623208924
+    second: SpecialBullet_34
+  - first:
+      213: -8603339961095996760
+    second: SpecialBullet_35
+  - first:
+      213: 6466506002774807969
+    second: SpecialBullet_36
+  - first:
+      213: 3810105222239016946
+    second: SpecialBullet_37
+  - first:
+      213: -8382789552510457592
+    second: SpecialBullet_38
+  - first:
+      213: 6850226713423849331
+    second: SpecialBullet_39
+  - first:
+      213: -7540808015760352595
+    second: SpecialBullet_40
+  - first:
+      213: 358259225714898363
+    second: SpecialBullet_41
+  - first:
+      213: 259199762282770323
+    second: SpecialBullet_42
+  - first:
+      213: -760328294458297129
+    second: SpecialBullet_43
+  - first:
+      213: -9138255485416331011
+    second: SpecialBullet_44
+  - first:
+      213: 3068968435354344115
+    second: SpecialBullet_45
+  - first:
+      213: 6217951693774568061
+    second: SpecialBullet_46
+  - first:
+      213: -3906899948517312689
+    second: SpecialBullet_47
+  - first:
+      213: -4767083811182601367
+    second: SpecialBullet_48
+  - first:
+      213: -2299574316996802661
+    second: SpecialBullet_49
+  - first:
+      213: 5067320318158843488
+    second: SpecialBullet_50
+  - first:
+      213: 4098232048031438458
+    second: SpecialBullet_51
+  - first:
+      213: -1329412301270679373
+    second: SpecialBullet_52
+  - first:
+      213: -7513983981599914058
+    second: SpecialBullet_53
+  - first:
+      213: 329974733784072849
+    second: SpecialBullet_54
+  - first:
+      213: 1423554238340328854
+    second: SpecialBullet_55
+  - first:
+      213: 1472931838097185934
+    second: SpecialBullet_56
+  - first:
+      213: -4054174931504860640
+    second: SpecialBullet_57
+  - first:
+      213: 1229603515616264477
+    second: SpecialBullet_58
+  - first:
+      213: -2692296819497464628
+    second: SpecialBullet_59
+  - first:
+      213: 4143735659869024971
+    second: SpecialBullet_60
+  - first:
+      213: 8834442746797052434
+    second: SpecialBullet_61
+  - first:
+      213: 139210800010769486
+    second: SpecialBullet_62
+  - first:
+      213: -1023676690810758218
+    second: SpecialBullet_63
+  - first:
+      213: 2861661881996780807
+    second: SpecialBullet_64
+  - first:
+      213: 5605831872633304930
+    second: SpecialBullet_65
+  - first:
+      213: 8045169749409391101
+    second: SpecialBullet_66
+  - first:
+      213: -2347886111858832520
+    second: SpecialBullet_67
+  - first:
+      213: 6240234928809246255
+    second: SpecialBullet_68
+  - first:
+      213: 5092157266522224139
+    second: SpecialBullet_69
+  - first:
+      213: 5067710133739103808
+    second: SpecialBullet_70
+  - first:
+      213: 7631149073734382056
+    second: SpecialBullet_71
+  - first:
+      213: -7268322252685836584
+    second: SpecialBullet_72
+  - first:
+      213: 2200053064976377279
+    second: SpecialBullet_73
+  - first:
+      213: 3305237387917828324
+    second: SpecialBullet_74
+  - first:
+      213: 7809015427957467173
+    second: SpecialBullet_75
+  - first:
+      213: 4802892729957186742
+    second: SpecialBullet_76
+  - first:
+      213: 6917526012958302696
+    second: SpecialBullet_77
+  - first:
+      213: -1019822464034902162
+    second: SpecialBullet_78
+  - first:
+      213: -7438579589979726077
+    second: SpecialBullet_79
+  - first:
+      213: 2259223945373941550
+    second: SpecialBullet_80
+  - first:
+      213: 6962317349859598197
+    second: SpecialBullet_81
+  - first:
+      213: -1567385301090312222
+    second: SpecialBullet_82
+  - first:
+      213: 3874411105306064941
+    second: SpecialBullet_83
+  - first:
+      213: 794682470529813675
+    second: SpecialBullet_84
+  - first:
+      213: -109846489645412845
+    second: SpecialBullet_85
+  - first:
+      213: 8463547857788707417
+    second: SpecialBullet_86
+  - first:
+      213: 5776522037214238647
+    second: SpecialBullet_87
+  - first:
+      213: 8068329385534745891
+    second: SpecialBullet_88
+  - first:
+      213: -516693961236414379
+    second: SpecialBullet_89
+  - first:
+      213: -6620151595928798585
+    second: SpecialBullet_90
+  - first:
+      213: -5182640694637742720
+    second: SpecialBullet_91
+  - first:
+      213: -3443685090983495530
+    second: SpecialBullet_92
+  - first:
+      213: 7735316751634780406
+    second: SpecialBullet_93
+  - first:
+      213: 5008411572901719180
+    second: SpecialBullet_94
+  - first:
+      213: -1787711423242211072
+    second: SpecialBullet_95
+  - first:
+      213: 5368231234628236578
+    second: SpecialBullet_96
+  - first:
+      213: -5062958625166482534
+    second: SpecialBullet_97
+  - first:
+      213: 6217269753965748466
+    second: SpecialBullet_98
+  - first:
+      213: 1666336175305165108
+    second: SpecialBullet_99
+  - first:
+      213: -1312383497708289554
+    second: SpecialBullet_100
+  - first:
+      213: 5263334452843241155
+    second: SpecialBullet_101
+  - first:
+      213: -4101192267713963574
+    second: SpecialBullet_102
+  - first:
+      213: 9203563743103771570
+    second: SpecialBullet_103
+  - first:
+      213: 5805917337782369169
+    second: SpecialBullet_104
+  - first:
+      213: -5859432900724767344
+    second: SpecialBullet_105
+  - first:
+      213: -8610436673827710842
+    second: SpecialBullet_106
+  - first:
+      213: 7244049688227914295
+    second: SpecialBullet_107
+  - first:
+      213: -5312324489653805823
+    second: SpecialBullet_108
+  - first:
+      213: 6186902391947960789
+    second: SpecialBullet_109
+  - first:
+      213: -2342078146457273466
+    second: SpecialBullet_110
+  - first:
+      213: -1770702431633010598
+    second: SpecialBullet_111
+  - first:
+      213: -8691436039025711017
+    second: SpecialBullet_112
+  - first:
+      213: 4227205617623195863
+    second: SpecialBullet_113
+  - first:
+      213: -3722114102345103668
+    second: SpecialBullet_114
+  - first:
+      213: 5542650825454639388
+    second: SpecialBullet_115
+  - first:
+      213: -4389166663416690923
+    second: SpecialBullet_116
+  - first:
+      213: -264915843001999026
+    second: SpecialBullet_117
+  - first:
+      213: -5457825257051630736
+    second: SpecialBullet_118
+  - first:
+      213: -915865477537097698
+    second: SpecialBullet_119
+  - first:
+      213: 6424694582153631661
+    second: SpecialBullet_120
+  - first:
+      213: 1587387883783866137
+    second: SpecialBullet_121
+  - first:
+      213: -3819417139450507857
+    second: SpecialBullet_122
+  - first:
+      213: 6179719171148152392
+    second: SpecialBullet_123
+  - first:
+      213: 2535527177198255806
+    second: SpecialBullet_124
+  - first:
+      213: -5134405121776788773
+    second: SpecialBullet_125
+  - first:
+      213: -8519489716269324644
+    second: SpecialBullet_126
+  - first:
+      213: 4427355720332005140
+    second: SpecialBullet_127
+  - first:
+      213: -4317289004183090148
+    second: SpecialBullet_128
+  - first:
+      213: 7983187042091245648
+    second: SpecialBullet_129
+  - first:
+      213: 8498050164937347096
+    second: SpecialBullet_130
+  - first:
+      213: 8494040009459921328
+    second: SpecialBullet_131
+  - first:
+      213: 4684710496254114306
+    second: SpecialBullet_132
+  - first:
+      213: 6173354537863813299
+    second: SpecialBullet_133
+  - first:
+      213: -7055323034781914099
+    second: SpecialBullet_134
+  - first:
+      213: -334672990481867798
+    second: SpecialBullet_135
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpecialBullet_0
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 883
+        width: 113
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04b4a9617f188f60800000000000000
+      internalID: 8036708107006817291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_1
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 877
+        width: 121
+        height: 124
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb3840713f2faa10800000000000000
+      internalID: 1922807455294176207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_4
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 875
+        width: 133
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c1785747ddb4cb70800000000000000
+      internalID: 8918461894413021639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_5
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 873
+        width: 135
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee2b78ec0e2a5890800000000000000
+      internalID: -7468606399065674007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_12
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 704
+        width: 132
+        height: 129
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac1ec8a228eb740b0800000000000000
+      internalID: -5744413333418876470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_13
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 699
+        width: 138
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c13bc705278e100800000000000000
+      internalID: 137485478649863310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_14
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 697
+        width: 144
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7fb7673545cd2750800000000000000
+      internalID: 6281893956324671354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_15
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 698
+        width: 147
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 006c07e6e5008eed0800000000000000
+      internalID: -2384655597112867328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_16
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 702
+        width: 144
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87262d2eb4dae820800000000000000
+      internalID: 2948402819333760911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_17
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 705
+        width: 149
+        height: 135
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b3cbffb86ae9ce0800000000000000
+      internalID: -1396495714217084149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_18
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 535
+        width: 147
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8d3a16fa34bd7ec0800000000000000
+      internalID: -3567497164477547126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_19
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 528
+        width: 150
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62613aaeec2daec60800000000000000
+      internalID: 7848317086788163110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_20
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 523
+        width: 154
+        height: 151
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f02f7f7294c811a0800000000000000
+      internalID: -6838499900678790928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_21
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 532
+        width: 141
+        height: 143
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 509613634845c7da0800000000000000
+      internalID: -5945784481214273275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_22
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 357
+        width: 142
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce0b03c65c0614390800000000000000
+      internalID: -7835875475607998228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_23
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 356
+        width: 143
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ffd76bd6af2996b0800000000000000
+      internalID: -5289143893677842446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_24
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 191
+        width: 139
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9756022cebe505bb0800000000000000
+      internalID: -4949351817086474887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_25
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 191
+        width: 131
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de4266fe35150e8f0800000000000000
+      internalID: -513320936579652371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_26
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 193
+        width: 135
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55dc5d4ef6b2d32e0800000000000000
+      internalID: -2144510087977906859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_27
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 191
+        width: 135
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f124a5c20ba2a530800000000000000
+      internalID: 3864839458631459312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_28
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 193
+        width: 135
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 970406678c9bd4f40800000000000000
+      internalID: 5714427772833644665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_29
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 199
+        width: 127
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f9f684116ac73d0800000000000000
+      internalID: -3207506241434706155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_2
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 875
+        width: 133
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4c853fcccdc8443a5a51f0e2d3d4fe
+      internalID: 7733256385709741456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_3
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 870
+        width: 134
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4422577fbe9e214a84f67a9dc2dc72b
+      internalID: 3073325628480822310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_6
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 525
+        width: 145
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 337c247df54b98545bcdb6b1aa13fdff
+      internalID: 7357429633091707786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_7
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 525
+        width: 146
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b9ab4d1fb8a43448f23f4ee50971bb
+      internalID: -6622264776937949110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_8
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 353
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055362687b3f18646ad4f6b47a2528e0
+      internalID: -5121435485689203268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_9
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 358
+        width: 149
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca22710c24a7ee4e97b202f9779934d
+      internalID: -4089179485017151203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_10
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 354
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86ae3b4214c7954ab954d9e3f1a00c3
+      internalID: -1956798636858304594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpecialBullet_11
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 357
+        width: 145
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca959618a77d6e4f8459cad48c32168
+      internalID: 8266943928331957781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 477cd02a1c21dc6419d1014eda7b535b
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceOnImport
+        value: False
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":144.0,"y":115.0},"gridSpriteOffset":{"x":24.0,"y":27.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":1,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      SpecialBullet_0: 8036708107006817291
+      SpecialBullet_1: 1922807455294176207
+      SpecialBullet_10: -1956798636858304594
+      SpecialBullet_11: 8266943928331957781
+      SpecialBullet_12: -5744413333418876470
+      SpecialBullet_13: 137485478649863310
+      SpecialBullet_14: 6281893956324671354
+      SpecialBullet_15: -2384655597112867328
+      SpecialBullet_16: 2948402819333760911
+      SpecialBullet_17: -1396495714217084149
+      SpecialBullet_18: -3567497164477547126
+      SpecialBullet_19: 7848317086788163110
+      SpecialBullet_2: 7733256385709741456
+      SpecialBullet_20: -6838499900678790928
+      SpecialBullet_21: -5945784481214273275
+      SpecialBullet_22: -7835875475607998228
+      SpecialBullet_23: -5289143893677842446
+      SpecialBullet_24: -4949351817086474887
+      SpecialBullet_25: -513320936579652371
+      SpecialBullet_26: -2144510087977906859
+      SpecialBullet_27: 3864839458631459312
+      SpecialBullet_28: 5714427772833644665
+      SpecialBullet_29: -3207506241434706155
+      SpecialBullet_3: 3073325628480822310
+      SpecialBullet_30: -7163634857222108710
+      SpecialBullet_31: 2336412327234534874
+      SpecialBullet_32: 7977481461437999671
+      SpecialBullet_33: 1499568637160872922
+      SpecialBullet_34: -5404863738623208924
+      SpecialBullet_35: -8603339961095996760
+      SpecialBullet_36: 6466506002774807969
+      SpecialBullet_37: 3810105222239016946
+      SpecialBullet_38: -8382789552510457592
+      SpecialBullet_39: 6850226713423849331
+      SpecialBullet_4: 8918461894413021639
+      SpecialBullet_40: -7540808015760352595
+      SpecialBullet_41: 358259225714898363
+      SpecialBullet_42: 259199762282770323
+      SpecialBullet_43: -760328294458297129
+      SpecialBullet_44: -9138255485416331011
+      SpecialBullet_5: -7468606399065674007
+      SpecialBullet_6: 7357429633091707786
+      SpecialBullet_7: -6622264776937949110
+      SpecialBullet_8: -5121435485689203268
+      SpecialBullet_9: -4089179485017151203
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

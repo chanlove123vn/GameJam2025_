@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class BuffProjectile : Buff
 {
-    protected override void Effecting(PlayerLevel1 p)
+    protected override void Effecting(PlayerAbstract p)
     {
         p.ProjectileBuff();
     }

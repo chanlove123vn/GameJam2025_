@@ -27,11 +27,9 @@ public class PlayerLevel0 : PlayerAbstract
     }
     protected override void InitPlayer()
     {
-        baseHP = 100;
-        HP = baseHP;
+        base.InitPlayer();
         speed = 10;
         dame = 0;
-
     }
 
     protected override void Moving()
@@ -53,7 +51,7 @@ public class PlayerLevel0 : PlayerAbstract
         rb.linearVelocity = new Vector2(speed, rb.linearVelocity.y);
         if (rb.linearVelocity.y < maxFallSpeed)
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, maxFallSpeed);
-        float targetAngle = Mathf.Clamp(rb.linearVelocity.y * tiltFactor, -70f, 20f);
+        float targetAngle = Mathf.Clamp(rb.linearVelocity.y * tiltFactor, -50f, 20f);
         float z = Mathf.SmoothDampAngle(transform.eulerAngles.z, targetAngle, ref angleVel, rotationSmoothTime);
         transform.rotation = Quaternion.Euler(0f, 0f, z);
     }

@@ -1,12 +1,13 @@
 using UnityEngine;
 
 
-public class BulletPlayer : ObjectPooled
+public class BulletPlayerLv1 : ObjectPooled
 {
-    [SerializeField] private float speed = 20;
-    [SerializeField] private float lifeTime = 10;
-    [SerializeField] private float timer = 0;
-    [SerializeField] private Collider2D hitPoint;
+    [SerializeField] protected float speed = 20;
+    [SerializeField] protected float lifeTime = 10;
+    [SerializeField] protected float timer = 0;
+    [SerializeField] protected int damage = 1;
+    [SerializeField] protected Collider2D hitPoint;
     private void Update()
     {
         Flying();
@@ -17,7 +18,7 @@ public class BulletPlayer : ObjectPooled
         base.LoadComponent();
         hitPoint = GetComponent<Collider2D>();
     }
-    private void Flying()
+    protected virtual void Flying()
     {
         var direction = transform.up;
         transform.position += direction.normalized * speed * Time.deltaTime;
@@ -31,11 +32,11 @@ public class BulletPlayer : ObjectPooled
     {
         base.OnDespawn();
     }
-    private void TurnOffBullet()
+    protected void TurnOffBullet()
     {
         PoolingManager.Instance.GetPoolCtrl(this).ReturnToPool(this);
     }
-    private void BulletDisspearAfterLife()
+    protected void BulletDisspearAfterLife()
     {
         timer += Time.deltaTime;
         if (timer >= lifeTime)
@@ -44,7 +45,7 @@ public class BulletPlayer : ObjectPooled
             TurnOffBullet();
         }
     }
-    private void OnTriggerEnter2D(Collider2D collider)
+    protected virtual void OnTriggerEnter2D(Collider2D collider)
     {
         //if(collider.GetComponent<Enemy>)
         

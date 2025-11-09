@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 5b556384cb07c5944a332187f831c768
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6817865304008014037
+    second: BirdHeroLevel2_0
+  - first:
+      213: -6493461316627061425
+    second: BirdHeroLevel2_1
+  - first:
+      213: -5047931663177867283
+    second: BirdHeroLevel2_2
+  - first:
+      213: -1858539124180138497
+    second: BirdHeroLevel2_3
+  - first:
+      213: -2462985871193511040
+    second: BirdHeroLevel2_4
+  - first:
+      213: 7578465649848000779
+    second: BirdHeroLevel2_5
+  - first:
+      213: 8187356047167414823
+    second: BirdHeroLevel2_6
+  - first:
+      213: 4495093747243594091
+    second: BirdHeroLevel2_7
+  - first:
+      213: 6663431662948580135
+    second: BirdHeroLevel2_8
+  - first:
+      213: 8778462264755283794
+    second: BirdHeroLevel2_9
+  - first:
+      213: 9084041269005152255
+    second: BirdHeroLevel2_10
+  - first:
+      213: -3280589815258117026
+    second: BirdHeroLevel2_11
+  - first:
+      213: 7440992135510629820
+    second: BirdHeroLevel2_12
+  - first:
+      213: -2771288405836522114
+    second: BirdHeroLevel2_13
+  - first:
+      213: -6633123273891843045
+    second: BirdHeroLevel2_14
+  - first:
+      213: -41492638350953225
+    second: BirdHeroLevel2_15
+  - first:
+      213: 1404765616674102792
+    second: BirdHeroLevel2_16
+  - first:
+      213: -9049567109830862214
+    second: BirdHeroLevel2_17
+  - first:
+      213: 5226096811574923779
+    second: BirdHeroLevel2_18
+  - first:
+      213: -5973059512678039455
+    second: BirdHeroLevel2_19
+  - first:
+      213: 1392044978049599995
+    second: BirdHeroLevel2_20
+  - first:
+      213: -2030675141959455327
+    second: BirdHeroLevel2_21
+  - first:
+      213: 8512003037772729690
+    second: BirdHeroLevel2_22
+  - first:
+      213: -1872079934293794813
+    second: BirdHeroLevel2_23
+  - first:
+      213: 3461346863255932652
+    second: BirdHeroLevel2_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: BirdHeroLevel2_0
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1188
+        width: 245
+        height: 230
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27442ce0a31261a0800000000000000
+      internalID: -6817865304008014037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroLevel2_1
+      rect:
+        serializedVersion: 2
+        x: 1192
+        y: 1412
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4524bb165792e5a0800000000000000
+      internalID: -6493461316627061425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroLevel2_2
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1187
+        width: 349
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def16ddb5e422f9b0800000000000000
+      internalID: -5047931663177867283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroLevel2_3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1192
+        width: 189
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5c31673842536e0800000000000000
+      internalID: -1858539124180138497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroLevel2_4
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1196
+        width: 362
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b64bc4667b1ddd0800000000000000
+      internalID: -2462985871193511040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroLevel2_5
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 1185
+        width: 333
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b01a0b92b5e1c2960800000000000000
+      internalID: 7578465649848000779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroLevel2_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 816
+        width: 354
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7226f0942f45f9170800000000000000
+      internalID: 8187356047167414823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroLevel2_7
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 820
+        width: 354
+        height: 287
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b61b88472f7c16e30800000000000000
+      internalID: 4495093747243594091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroLevel2_8
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 818
+        width: 227
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72bf3270bc3497c50800000000000000
+      internalID: 6663431662948580135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroLevel2_9
+      rect:
+        serializedVersion: 2
+        x: 825
+        y: 967
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 257e8e46bec53d970800000000000000
+      internalID: 8778462264755283794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroLevel2_10
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 818
+        width: 280
+        height: 312
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff6a04a76ff01e70800000000000000
+      internalID: 9084041269005152255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroLevel2_11
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 959
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5c86cfb1f00972d0800000000000000
+      internalID: -3280589815258117026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroLevel2_12
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 811
+        width: 190
+        height: 315
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd16955ce6b34760800000000000000
+      internalID: 7440992135510629820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroLevel2_13
+      rect:
+        serializedVersion: 2
+        x: 1072
+        y: 953
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7d94f7b0e76a89d0800000000000000
+      internalID: -2771288405836522114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroLevel2_14
+      rect:
+        serializedVersion: 2
+        x: 1722
+        y: 953
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b14fc44b68962f3a0800000000000000
+      internalID: -6633123273891843045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroLevel2_15
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 850
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f43c4e4aa69c6ff0800000000000000
+      internalID: -41492638350953225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroLevel2_16
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 417
+        width: 269
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80eda86b2eabe7310800000000000000
+      internalID: 1404765616674102792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroLevel2_17
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 553
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7a197709aa796280800000000000000
+      internalID: -9049567109830862214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroLevel2_18
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 414
+        width: 269
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30299bf6c53d68840800000000000000
+      internalID: 5226096811574923779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroLevel2_19
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 550
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 160ce84150e6b1da0800000000000000
+      internalID: -5973059512678039455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroLevel2_20
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 414
+        width: 230
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf9430c3889815310800000000000000
+      internalID: 1392044978049599995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroLevel2_21
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 414
+        width: 234
+        height: 314
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad6a45a7b791d3e0800000000000000
+      internalID: -2030675141959455327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroLevel2_22
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 415
+        width: 241
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d4d711aa5b02670800000000000000
+      internalID: 8512003037772729690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroLevel2_23
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 394
+        width: 19
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300284de7390506e0800000000000000
+      internalID: -1872079934293794813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BirdHeroLevel2_24
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 20
+        width: 235
+        height: 319
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cee48c412ac290030800000000000000
+      internalID: 3461346863255932652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      BirdHeroLevel2_0: -6817865304008014037
+      BirdHeroLevel2_1: -6493461316627061425
+      BirdHeroLevel2_10: 9084041269005152255
+      BirdHeroLevel2_11: -3280589815258117026
+      BirdHeroLevel2_12: 7440992135510629820
+      BirdHeroLevel2_13: -2771288405836522114
+      BirdHeroLevel2_14: -6633123273891843045
+      BirdHeroLevel2_15: -41492638350953225
+      BirdHeroLevel2_16: 1404765616674102792
+      BirdHeroLevel2_17: -9049567109830862214
+      BirdHeroLevel2_18: 5226096811574923779
+      BirdHeroLevel2_19: -5973059512678039455
+      BirdHeroLevel2_2: -5047931663177867283
+      BirdHeroLevel2_20: 1392044978049599995
+      BirdHeroLevel2_21: -2030675141959455327
+      BirdHeroLevel2_22: 8512003037772729690
+      BirdHeroLevel2_23: -1872079934293794813
+      BirdHeroLevel2_24: 3461346863255932652
+      BirdHeroLevel2_3: -1858539124180138497
+      BirdHeroLevel2_4: -2462985871193511040
+      BirdHeroLevel2_5: 7578465649848000779
+      BirdHeroLevel2_6: 8187356047167414823
+      BirdHeroLevel2_7: 4495093747243594091
+      BirdHeroLevel2_8: 6663431662948580135
+      BirdHeroLevel2_9: 8778462264755283794
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

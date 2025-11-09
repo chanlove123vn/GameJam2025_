@@ -1,29 +1,65 @@
 using UnityEngine;
 
-public abstract class Formation : ObjectPooled
+public enum FormationDirection
 {
-    [SerializeField] protected float moveSpeed;
-    
-    protected EnemyPlane[] enemies;
-    protected Vector3 targetPos;
-    protected bool isMoving = false;
+    Right,
+    Left,
+    Down
+}
 
-    protected virtual void Start()
+public class Formation : ObjectPooled
+{
+    [SerializeField] private float moveSpeed;
+    [SerializeField] public FormationDirection direction = FormationDirection.Right;
+    [SerializeField] public Vector2 moveDir;
+    
+    private EnemyPlane[] enemies;
+    private Vector3 targetPos;
+    private bool isMoving = false;
+
+    public void Start()
     {
-        enemies = GetComponentsInChildren<EnemyPlane>();
-        moveSpeed = enemies.Length > 0 ? enemies[0].moveSpeed : 5f;
+        OnStart();
     }
 
-    public virtual void SetTarget(Vector3 target)
+    public void SetTarget(Vector3 target)
     {
         targetPos = target;
         isMoving = true;
         StartMoving();
     }
 
-    protected abstract void StartMoving();
+    public void OnStart()
+    {
+        enemies = GetComponentsInChildren<EnemyPlane>();
+        moveSpeed = enemies.Length > 0 ? enemies[0].moveSpeed : 5f;
+        moveDir = GetMoveDirectionFromEnum();
+    }
 
-    protected virtual void Update()
+    private Vector2 GetMoveDirectionFromEnum()
+    {
+        switch (direction)
+        {
+            case FormationDirection.Right:
+                return Vector2.right;
+            case FormationDirection.Left:
+                return Vector2.left;
+            case FormationDirection.Down:
+                return Vector2.down;
+            default:
+                return Vector2.right;
+        }
+    }
+
+    public void StartMoving()
+    {
+        foreach (EnemyPlane enemy in enemies)
+        {
+            enemy.moveDir = Vector2.zero;
+        }
+    }
+
+    public void Update()
     {
         if (isMoving)
         {
@@ -37,7 +73,6 @@ public abstract class Formation : ObjectPooled
             return new Bounds(transform.position, Vector3.zero);
         
         Bounds bounds = new Bounds(enemies[0].transform.position, Vector3.zero);
-        
         foreach (EnemyPlane enemy in enemies)
         {
             bounds.Encapsulate(enemy.transform.position);
@@ -46,15 +81,50 @@ public abstract class Formation : ObjectPooled
         return bounds;
     }
 
-    protected abstract void Move();
+    public void Move()
+    {
+        Vector3 currentCenter = GetFormationBounds().center;
+        Vector3 movement = Vector3.zero;
+        bool reached = false;
 
-    protected virtual void OnReachedTarget()
+        if (direction == FormationDirection.Right)
+        {
+            movement = Vector3.right * moveSpeed * Time.deltaTime;
+            if (currentCenter.x + moveSpeed * Time.deltaTime >= targetPos.x)
+                reached = true;
+        }
+        else if (direction == FormationDirection.Left)
+        {
+            movement = Vector3.left * moveSpeed * Time.deltaTime;
+            if (currentCenter.x - moveSpeed * Time.deltaTime <= targetPos.x)
+                reached = true;
+        }
+        else if (direction == FormationDirection.Down)
+        {
+            movement = Vector3.down * moveSpeed * Time.deltaTime;
+            if (currentCenter.y - moveSpeed * Time.deltaTime <= targetPos.y)
+                reached = true;
+        }
+
+        if (reached)
+        {
+            Vector3 offset = transform.position - currentCenter;
+            transform.position = targetPos + offset;
+            OnReachedTarget();
+        }
+        else
+        {
+            transform.position += movement;
+        }
+    }
+
+    public void OnReachedTarget()
     {
         isMoving = false;
         StopAll();
     }
 
-    protected void StopAll()
+    public void StopAll()
     {
         foreach (EnemyPlane enemy in enemies)
         {
@@ -64,9 +134,20 @@ public abstract class Formation : ObjectPooled
         }
     }
 
-    public void DeactivateFormation()
+    public override void OnSpawn()
     {
-        gameObject.SetActive(false);
+        isMoving = false;
+        
+        if (enemies == null || enemies.Length == 0)
+        {
+            enemies = GetComponentsInChildren<EnemyPlane>();
+        }
+        
+        foreach (EnemyPlane enemy in enemies)
+        {
+            enemy.moveDir = Vector2.zero;
+            if (enemy.rb != null)
+                enemy.rb.linearVelocity = Vector2.zero;
+        }
     }
-
 }

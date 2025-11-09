@@ -25,8 +25,8 @@ public abstract class MonsterAbstract : ObjectPooled
     [SerializeField] protected float timer = 0;
 
     [Header("===HP===")]
-    [SerializeField] protected float baseHP = 2f;
-    protected float HP;
+    [SerializeField] protected int baseHP = 2;
+    protected int HP;
 
     //===Unity===//
     protected override void LoadComponent()
@@ -51,7 +51,7 @@ public abstract class MonsterAbstract : ObjectPooled
         HP = baseHP;
     }
 
-    public virtual void TakeDamage(float damage)
+    public virtual void TakeDamage(int damage)
     {
         HP -= damage;
         Debug.Log($"{gameObject.name} takes {damage} damage. HP: {HP}/{baseHP}");

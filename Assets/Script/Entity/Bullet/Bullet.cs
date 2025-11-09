@@ -1,10 +1,10 @@
 using UnityEngine;
 
-public class Bullet : ObjectPooled
+public class BulletEnemy : ObjectPooled
 {
     //===Variables===//
-    [SerializeField] private float speed = 5f;
-    [SerializeField] private float damage = 1f;
+    [SerializeField] private float speed = 2f;
+    [SerializeField] private int damage = 1;
     private float timer = 0;
 
     private Rigidbody2D rb;

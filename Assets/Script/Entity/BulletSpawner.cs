@@ -1,5 +1,5 @@
 using UnityEngine;
 
-public class BulletSpawner : PoolCtrl<Bullet>
+public class BulletSpawner : PoolCtrl<BulletEnemy>
 {
 }

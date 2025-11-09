@@ -46,11 +46,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 6677796383975956838}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5334b70d21e2def4ca749bf67ee1f57c, type: 3}
+  m_Script: {fileID: 11500000, guid: 6b181b52d5c4e8e4eaa26efb6a9ee88f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::FormationMoveRight
   moveSpeed: 0
-  stopDistance: 0.1
 --- !u!1001 &662883865326066790
 PrefabInstance:
   m_ObjectHideFlags: 0

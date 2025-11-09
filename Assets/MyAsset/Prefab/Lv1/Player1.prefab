@@ -139,8 +139,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1613373045
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 3480286408209536077, guid: 180e00b19ef84b549874cf151373c1ae, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -201,22 +201,24 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c7e95173cc529174aa078b6b42ad99c7, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerLevel3
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerLevel1
   HP: 0
-  baseHP: 0
+  baseHP: 3
   speed: 0
   rb: {fileID: 2853269236948042094}
   source: {fileID: 0}
   col: {fileID: 311133554201514477}
-  anim: {fileID: 0}
-  sprite: {fileID: 0}
+  anim: {fileID: 1203448561252364627}
+  sprite: {fileID: 9110674771441454897}
   state: 0
   projectileBuffDuration: 10
   spreadAngle: 30
   moveInput: {x: 0, y: 0}
   bulletPrefab: {fileID: 7526605631511244251, guid: c60266672446e6d4fb90a05d116b6881, type: 3}
   firePoint: {fileID: 1145168860625587122}
-  fireCooldown: 0.35
+  fireCooldown: 0.5
+  delayBullet: 0.03
+  isBursting: 0
 --- !u!95 &1203448561252364627
 Animator:
   serializedVersion: 7

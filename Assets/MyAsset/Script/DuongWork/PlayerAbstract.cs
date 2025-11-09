@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public abstract class PlayerAbstract : LoadComponentMonoBehavior
@@ -6,6 +7,8 @@ public abstract class PlayerAbstract : LoadComponentMonoBehavior
     public int HP;
     public int baseHP = 3;
     [SerializeField] protected float speed;
+    public event Action<PlayerAbstract> OnPlayerLostHealth;
+   
     protected int dame;
     public bool IsDead { get; private set; }
     protected bool isLockPos = false;
@@ -89,6 +92,7 @@ public abstract class PlayerAbstract : LoadComponentMonoBehavior
     public void Deduct(int damage)
     {
         HP -= damage;
+        OnPlayerLostHealth?.Invoke(this);
         if (HP <= 0)
         {
             HP = 0;

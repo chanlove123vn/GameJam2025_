@@ -7,7 +7,7 @@ public class SlingShot : LoadComponentMonoBehavior, IHoldPlayerInterface
     public Transform HoldPoint => this.holdPoint;
 
     [SerializeField] private float maxPull;
-    [SerializeField] private float power = 80f;
+    [SerializeField] private float power = 60f;
     private Camera cam;
     private bool isDragging;
     private Vector2 lastOffset;

@@ -80,8 +80,8 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 1533383783
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: -441044139803317892, guid: c9bc80b94e6e0c94182a375e22a9e6ba, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -110,7 +110,7 @@ MonoBehaviour:
   holdPoint: {fileID: 6320333324815784251}
   col: {fileID: 7329552147296599062}
   maxPull: 2.4
-  power: 80
+  power: 60
 --- !u!58 &7329552147296599062
 CircleCollider2D:
   m_ObjectHideFlags: 0

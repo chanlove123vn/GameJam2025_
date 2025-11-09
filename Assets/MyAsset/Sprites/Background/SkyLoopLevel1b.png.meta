@@ -1,0 +1,780 @@
+fileFormatVersion: 2
+guid: 5e7fb1808410c6e4d9eac16363c10b00
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5817908021845355585
+    second: SkyLoopLevel1b_0
+  - first:
+      213: -7855968606372666226
+    second: SkyLoopLevel1b_1
+  - first:
+      213: -8472313958751092539
+    second: SkyLoopLevel1b_2
+  - first:
+      213: 2635899533858961662
+    second: SkyLoopLevel1b_3
+  - first:
+      213: 314155833542956172
+    second: SkyLoopLevel1b_4
+  - first:
+      213: -1848682787128475833
+    second: SkyLoopLevel1b_5
+  - first:
+      213: -3552245479658273669
+    second: SkyLoopLevel1b_6
+  - first:
+      213: -3499240677570338759
+    second: SkyLoopLevel1b_7
+  - first:
+      213: 6940994337268396768
+    second: SkyLoopLevel1b_8
+  - first:
+      213: 739293867358017571
+    second: SkyLoopLevel1b_9
+  - first:
+      213: 4641290127667039657
+    second: SkyLoopLevel1b_10
+  - first:
+      213: -4351808183557900538
+    second: SkyLoopLevel1b_11
+  - first:
+      213: 4937080524305094439
+    second: SkyLoopLevel1b_12
+  - first:
+      213: 6110063176495834240
+    second: SkyLoopLevel1b_13
+  - first:
+      213: -7095131742168325041
+    second: SkyLoopLevel1b_14
+  - first:
+      213: 577257731639181776
+    second: SkyLoopLevel1b_15
+  - first:
+      213: 1526937613660028848
+    second: SkyLoopLevel1b_16
+  - first:
+      213: 8493200069612520103
+    second: SkyLoopLevel1b_17
+  - first:
+      213: 3541217684950903105
+    second: SkyLoopLevel1b_18
+  - first:
+      213: -2993111740617193673
+    second: SkyLoopLevel1b_19
+  - first:
+      213: 5425520437933754786
+    second: SkyLoopLevel1b_20
+  - first:
+      213: -6489455948617142063
+    second: SkyLoopLevel1b_21
+  - first:
+      213: -5529712918838743655
+    second: SkyLoopLevel1b_22
+  - first:
+      213: 7532741130365596530
+    second: SkyLoopLevel1b_23
+  - first:
+      213: 5491370879144319086
+    second: SkyLoopLevel1b_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SkyLoopLevel1b_0
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 3759
+        width: 327
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14cecf1758c5db050800000000000000
+      internalID: 5817908021845355585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyLoopLevel1b_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3624
+        width: 261
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84698adc2ef9f290800000000000000
+      internalID: -7855968606372666226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyLoopLevel1b_2
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 3385
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0ce0fb75b4c6a80800000000000000
+      internalID: -8472313958751092539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyLoopLevel1b_3
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 3393
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef8f74319a8949420800000000000000
+      internalID: 2635899533858961662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyLoopLevel1b_4
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 3377
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c84d17ee01b1c5400800000000000000
+      internalID: 314155833542956172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyLoopLevel1b_5
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 3375
+        width: 224
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74ff3d2ccc82856e0800000000000000
+      internalID: -1848682787128475833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyLoopLevel1b_6
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 3121
+        width: 310
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b744bfd8e83e3bec0800000000000000
+      internalID: -3552245479658273669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyLoopLevel1b_7
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 2929
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 930a2ddb423307fc0800000000000000
+      internalID: -3499240677570338759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyLoopLevel1b_8
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 2937
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e271e4239d535060800000000000000
+      internalID: 6940994337268396768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyLoopLevel1b_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 2921
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 328df7cfadf724a00800000000000000
+      internalID: 739293867358017571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyLoopLevel1b_10
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 2919
+        width: 224
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad0f1fc7cc296040800000000000000
+      internalID: 4641290127667039657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyLoopLevel1b_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2711
+        width: 269
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 607b46093854b93c0800000000000000
+      internalID: -4351808183557900538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyLoopLevel1b_12
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 2401
+        width: 327
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72754be3498048440800000000000000
+      internalID: 4937080524305094439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyLoopLevel1b_13
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 2223
+        width: 224
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 084aa36261e4bc450800000000000000
+      internalID: 6110063176495834240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyLoopLevel1b_14
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 2225
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f446579a547098d90800000000000000
+      internalID: -7095131742168325041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyLoopLevel1b_15
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 2241
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d1833639d4d20800800000000000000
+      internalID: 577257731639181776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyLoopLevel1b_16
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 2233
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf73686ba5c03510800000000000000
+      internalID: 1526937613660028848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyLoopLevel1b_17
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 2015
+        width: 212
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2c393e678edd570800000000000000
+      internalID: 8493200069612520103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyLoopLevel1b_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1863
+        width: 264
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14964d7e8bee42130800000000000000
+      internalID: 3541217684950903105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyLoopLevel1b_19
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 1625
+        width: 327
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7370677eab45676d0800000000000000
+      internalID: -2993111740617193673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyLoopLevel1b_20
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1315
+        width: 242
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a9c9a8b7125b4b40800000000000000
+      internalID: 5425520437933754786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyLoopLevel1b_21
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1073
+        width: 252
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d031258232d0f5a0800000000000000
+      internalID: -6489455948617142063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyLoopLevel1b_22
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 812
+        width: 290
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d6ab2e5638243b0800000000000000
+      internalID: -5529712918838743655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyLoopLevel1b_23
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 605
+        width: 208
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2737a6cd52ca98860800000000000000
+      internalID: 7532741130365596530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SkyLoopLevel1b_24
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 313
+        width: 327
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e68525558b4453c40800000000000000
+      internalID: 5491370879144319086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      SkyLoopLevel1b_0: 5817908021845355585
+      SkyLoopLevel1b_1: -7855968606372666226
+      SkyLoopLevel1b_10: 4641290127667039657
+      SkyLoopLevel1b_11: -4351808183557900538
+      SkyLoopLevel1b_12: 4937080524305094439
+      SkyLoopLevel1b_13: 6110063176495834240
+      SkyLoopLevel1b_14: -7095131742168325041
+      SkyLoopLevel1b_15: 577257731639181776
+      SkyLoopLevel1b_16: 1526937613660028848
+      SkyLoopLevel1b_17: 8493200069612520103
+      SkyLoopLevel1b_18: 3541217684950903105
+      SkyLoopLevel1b_19: -2993111740617193673
+      SkyLoopLevel1b_2: -8472313958751092539
+      SkyLoopLevel1b_20: 5425520437933754786
+      SkyLoopLevel1b_21: -6489455948617142063
+      SkyLoopLevel1b_22: -5529712918838743655
+      SkyLoopLevel1b_23: 7532741130365596530
+      SkyLoopLevel1b_24: 5491370879144319086
+      SkyLoopLevel1b_3: 2635899533858961662
+      SkyLoopLevel1b_4: 314155833542956172
+      SkyLoopLevel1b_5: -1848682787128475833
+      SkyLoopLevel1b_6: -3552245479658273669
+      SkyLoopLevel1b_7: -3499240677570338759
+      SkyLoopLevel1b_8: 6940994337268396768
+      SkyLoopLevel1b_9: 739293867358017571
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

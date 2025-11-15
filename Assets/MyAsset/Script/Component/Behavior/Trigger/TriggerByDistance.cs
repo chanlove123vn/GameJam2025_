@@ -36,8 +36,8 @@ public class TriggerByDistance : BaseComponent
     private void Checking()
     {
         float distance = Vector2.Distance(this.mainObj.Value.position, this.target.Value.position);
-
         if (distance > this.distance.Value) return;
-        this.trigger.Value?.Invoke();
+   
+        this.trigger.Value.Invoke();
     }
 }

@@ -63,5 +63,7 @@ public class EnemyPlane : MonsterAbstract
         {
             bullet.transform.position = firePoint.position;
         }
+        
+        this.fireRate = Random.Range(1f, 3f);
     }
 }

@@ -40,9 +40,9 @@ public class BossPlane1 : BaseComponent
     }
 
     //=======================================Base Component=======================================
-    public override void OnUpdate()
+    protected override void Update()
     {
-        base.OnUpdate();
+        base.Update();
         switch (this.state.Value)
         {
             case BossPlaneState.APPEAR:
@@ -57,9 +57,9 @@ public class BossPlane1 : BaseComponent
         }
     }
 
-    public override void OnFixedUpdate()
+    protected override void FixedUpdate()
     {
-        base.OnFixedUpdate();
+        base.FixedUpdate();
         switch (this.state.Value)
         {
             case BossPlaneState.APPEAR:
@@ -74,19 +74,30 @@ public class BossPlane1 : BaseComponent
         }
     }
 
-    public override void OnStart()
+    protected override void OnEnable()
     {
-        base.OnStart();
+        base.OnEnable();
         foreach (var item in this.appearQueue) item.OnStart();
         foreach (var item in this.onMapQueue) item.OnStart();
         foreach (var item in this.deadQueue) item.OnStart();
     }
 
-    public override void OnEnd()
+    protected override void OnDisable()
     {
-        base.OnEnd();
+        base.OnDisable();
         foreach (var item in this.appearQueue) item.OnEnd();
         foreach (var item in this.onMapQueue) item.OnEnd();
         foreach (var item in this.deadQueue) item.OnEnd();
+    }
+
+    //===========================================Method===========================================
+    public void SwitchToOnMap()
+    {
+        this.state.Value = BossPlaneState.ON_MAP;
+    }
+
+    public void StopMove()
+    {
+        this.rb.linearVelocity = Vector2.zero;
     }
 }

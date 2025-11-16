@@ -12,12 +12,17 @@ public class BulletEnemy : ObjectPooled
     //===Unity====//
     private void Update()
     {
-        this.DespawningByTime();
+        //this.DespawningByTime();
     }
     protected override void LoadComponent()
     {
         base.LoadComponent();
         if(!rb) this.rb = GetComponent<Rigidbody2D>();
+    }
+
+    private void OnEnable()
+    {
+        this.Moving();
     }
     //===Method===//
     private void Moving()
@@ -35,15 +40,15 @@ public class BulletEnemy : ObjectPooled
         timer = 0;
     }
 
-    private void DespawningByTime()
-    {
-        timer += Time.deltaTime;
-        if (timer >= 2)
-        {
-            timer = 0;
-            PoolingManager.Instance.GetPoolCtrl(this).ReturnToPool(this);
-        }
-    }
+    //private void DespawningByTime()
+    //{
+    //    timer += Time.deltaTime;
+    //    if (timer >= 2)
+    //    {
+    //        timer = 0;
+    //        PoolingManager.Instance.GetPoolCtrl(this).ReturnToPool(this);
+    //    }
+    //}
 
     public void Init(Vector2 direction)
     {

@@ -7,14 +7,15 @@ public class TriggerByTime : BaseComponent
     [Header("Primary Value")]
     [SerializeField] private CBCooldown cd;
     [SerializeField] private CBUnityEvent trigger;
-    [SerializeField] private bool canLoop;
+    [SerializeField] private Bool canLoop;
 
     //===========================================Unity============================================
     public override void LoadComponents()
     {
         base.LoadComponents();
-        this.LoadComponent(ref this.cd, transform.Find("CD"), "LoadCD()");
-        this.LoadComponent(ref this.trigger, transform.Find("Trigger"), "LoadTrigger()");
+        this.LoadComponent(ref this.cd, transform.Find("Data/CD"), "LoadCD()");
+        this.LoadComponent(ref this.trigger, transform.Find("Data/Trigger"), "LoadTrigger()");
+        this.LoadValue(ref this.canLoop, transform.Find("Data/CanLoop"), "LoadCanLoop()");
     }
 
     //=======================================Base Component=======================================
@@ -37,7 +38,7 @@ public class TriggerByTime : BaseComponent
         if (!this.cd.Value.IsReady) return;
         
         this.trigger.Value?.Invoke();
-        if (!this.canLoop) return;
+        if (!this.canLoop.Value) return;
         
         this.cd.Value.ResetStatus();
     }

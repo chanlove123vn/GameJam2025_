@@ -7,7 +7,12 @@ public class SpawnerManager : HuyMonoBehaviour
     public static SpawnerManager Instance => instance;
 
     [SerializeField] private BackgroundSpawner background;
+    [SerializeField] private BulletSpawner bullet;
+    [SerializeField] private EntitySpawner entity;
+
     public BackgroundSpawner Background => background;
+    public BulletSpawner Bullet => bullet;
+    public EntitySpawner Entity => entity;
 
     //===========================================Unity============================================
     protected override void Awake()
@@ -26,5 +31,7 @@ public class SpawnerManager : HuyMonoBehaviour
     {
         base.LoadComponents();
         this.LoadComponent(ref this.background, transform.Find("Background"), "LoadBackground()");
+        this.LoadComponent(ref this.bullet, transform.Find("Bullet"), "LoadBullet()");
+        this.LoadComponent(ref this.entity, transform.Find("Entity"), "LoadEntity()");
     }
 }

@@ -9,9 +9,8 @@ public class Shoot : BaseComponent
     [Header("===Shoot===")]
     [Header("Primary Value")]
     [SerializeField] private List<CBTransform> spawnPoints;
-    [SerializeField] private CBTransform bullet;
     [SerializeField] private CBCooldown reloadCd;
-    [SerializeField] private Spawner prefabSpawner;
+    [SerializeField] private CBBulletType bullet;
 
     //===========================================Unity============================================
     public override void LoadComponents()
@@ -45,7 +44,7 @@ public class Shoot : BaseComponent
         
         foreach (var point in this.spawnPoints)
         {
-            var bullet = this.prefabSpawner.SpawnByObj(this.bullet.Value, point.Value.position, point.Value.rotation);
+            var bullet = SpawnerManager.Instance.Bullet.SpawnByType(this.bullet.Value, point.Value.position, point.Value.rotation);
             bullet.gameObject.SetActive(true);
         }
     }

@@ -39,7 +39,7 @@ public class BossPlane1 : BaseComponent
         this.LoadValue(ref this.currHealth, transform.Find("Data/CurrHealth"), "LoadCurrHealth()");
     }
 
-    //=======================================Base Component=======================================
+    //===========================================Unity============================================
     protected override void Update()
     {
         base.Update();

@@ -5,7 +5,7 @@ public class SpawnByTime : BaseComponent
 {
     //==========================================Variable==========================================
     [Space(25)]
-    [Header("===Shoot===")]
+    [Header("===Spawn By Time===")]
     [Header("Primary Value")]
     [SerializeField] private CBTransform spawnPoint;
     [SerializeField] private CBTransform prefab;
@@ -25,7 +25,7 @@ public class SpawnByTime : BaseComponent
     public override void OnUpdate()
     {
         base.OnUpdate();
-        this.Shooting();
+        this.Spawning();
     }
 
     public override void OnEnd()
@@ -35,14 +35,15 @@ public class SpawnByTime : BaseComponent
     }
 
     //===========================================Method===========================================
-    public void Shooting()
+    public void Spawning()
     {
         this.Cd.Value.CoolingDown();
         if (!this.Cd.Value.IsReady) return;
 
         this.Cd.Value.ResetStatus();
         var bullet = this.spawner.SpawnByObj(this.spawnPoint.Value, 
-            this.spawnPoint.Value.position, this.spawnPoint.Value.rotation);
+            this.spawnPoint.Value.position, 
+            this.spawnPoint.Value.rotation);
         bullet.gameObject.SetActive(true);
         
     }
